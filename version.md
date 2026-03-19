@@ -1,8 +1,13 @@
 ## 📌 Historial de Versiones  
 
-📅 **Última actualización:** 2025-02-13  
+📅 **Última actualización:** 2026-03-19  
 ✍️ **Autor:** Katherine Vargas [(KathWare)](https://kathware.com.ar)  
 
+
+---
+
+### 🚀 **Versión 1.3.3 2026-03-19**  
+✔ **Se modificaron las frases para mayor compatibilidad con la identidad del sitio.  
 
 ---
 
