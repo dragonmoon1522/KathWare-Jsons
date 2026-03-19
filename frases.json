@@ -1,198 +1,458 @@
 [
-    {
-        "texto": "Si todo lo que ofreciste no alcanzó, ofrecé tu ausencia.",
-        "autor": "Mario Benedetti"
-    },
-    {
-        "texto": "Lo imposible es el fantasma de los tímidos y el refugio de los cobardes.",
-        "autor": "Napoleón Bonaparte"
-    },
-    {
-        "texto": "La victoria pertenece al más perseverante.",
-        "autor": "Napoleón Bonaparte"
-    },
-    {
-        "texto": "Haz lo que puedas, con lo que tengas, donde estés.",
-        "autor": "Theodore Roosevelt"
-    },
-    {
-        "texto": "No cuentes los días, haz que los días cuenten.",
-        "autor": "Muhammad Ali"
-    },
-    {
-        "texto": "El éxito es ir de fracaso en fracaso sin perder el entusiasmo.",
-        "autor": "Winston Churchill"
-    },
-    {
-        "texto": "La única forma de hacer un gran trabajo es amar lo que haces.",
-        "autor": "Steve Jobs"
-    },
-    {
-        "texto": "Si puedes soñarlo, puedes lograrlo.",
-        "autor": "Walt Disney"
-    },
-    {
-        "texto": "Eres más valiente de lo que crees, más fuerte de lo que pareces y más inteligente de lo que piensas.",
-        "autor": "A. A. Milne"
-    },
-    {
-        "texto": "Todo lo que necesitas ya está dentro de ti. Solo tienes que creerlo.",
-        "autor": "Desconocido"
-    },
-    {
-        "texto": "A veces se gana y a veces se aprende, pero nunca dejes de intentarlo.",
-        "autor": "Nelson Mandela"
-    },
-    {
-        "texto": "Aunque el camino sea difícil, cada paso te lleva más cerca de tu meta.",
-        "autor": "Desconocido"
-    },
-    {
-        "texto": "El gesto más noble engrandece al hombre más pequeño.",
-        "autor": "Jebediah Springfield"
-    },
-    {
-        "texto": "Solo porque no me importe no significa que no entienda.",
-        "autor": "Lisa Simpson"
-    },
-    {
-        "texto": "Una persona no se define por sus errores, sino por cómo los supera.",
-        "autor": "Lisa Simpson"
-    },
-    {
-        "texto": "La fama es pasajera, pero la humildad y el trabajo duro te llevan lejos.",
-        "autor": "Marge Simpson"
-    },
-    {
-        "texto": "Si algo es difícil, vale la pena hacerlo.",
-        "autor": "Homero Simpson"
-    },
-    {
-        "texto": "La tecnología es una herramienta poderosa, pero es nuestra voluntad la que define su impacto en nuestras vidas.",
-        "autor": "Katherine Vargas (KathWare)"
-    },
-    {
-        "texto": "La sororidad nos une en la diversidad, fortaleciendo nuestras voces y acciones.",
-        "autor": "Katherine Vargas (KathWare)"
-    },
-    {
-        "texto": "Cada desafío es una oportunidad para innovar y encontrar soluciones que nos acerquen más a la inclusión.",
-        "autor": "Katherine Vargas (KathWare)"
-    },
-    {
-        "texto": "Reconocer nuestras diferencias es el primer paso para construir un mundo más accesible y justo para todas.",
-        "autor": "Katherine Vargas (KathWare)"
-    },
-    {
-        "texto": "La empatía y la comprensión son claves para derribar barreras y construir puentes hacia la accesibilidad.",
-        "autor": "Katherine Vargas (KathWare)"
-    },
-    {
-        "texto": "Abrir los ojos a nuevas perspectivas enriquece nuestro camino.",
-        "autor": "Katherine Vargas (KathWare)"
-    },
-    {
-        "texto": "La Inteligencia Artificial es una herramienta más como lo es un cuchillo, un martillo o un machete. El propósito con el que la utilicemos es decisión nuestra.",
-        "autor": "Katherine Vargas (KathWare)"
-    },
-    {
-        "texto": "El que en las malas no está, en las buenas sobra.",
-        "autor": "Desconocido"
-    },
-    {
-        "texto": "Cuando dejo ir lo que soy, me convierto en lo que debería ser.",
-        "autor": "Lao Tsé"
-    },
-    {
-        "texto": "Recuerda que nadie puede hacerte sentir menos sin tu consentimiento.",
-        "autor": "Eleanor Roosevelt"
-    },
-    {
-        "texto": "No puedo cambiar la dirección del viento, pero puedo ajustar mis velas para llegar siempre a mi destino.",
-        "autor": "Jimmy Dean"
-    },
-    {
-        "texto": "Confía en ti misma y podrás lograr todo lo que quieras.",
-        "autor": "Lisa Simpson"
-    },
-    {
-        "texto": "Espera lo mejor, prepárate para lo peor y gestiona lo que venga.",
-        "autor": "Desconocido"
-    },
-    {
-        "texto": "La mente es como un paracaídas, solo funciona si la tenemos abierta.",
-        "autor": "Albert Einstein"
-    },
-    {
-        "texto": "Todos somos muy ignorantes. Lo que ocurre es que no todos ignoramos las mismas cosas.",
-        "autor": "Albert Einstein"
-    },
-    {
-        "texto": "La imaginación es más importante que el conocimiento.",
-        "autor": "Albert Einstein"
-    },
-    {
-        "texto": "El único modo de lograr lo imposible es creer que es posible.",
-        "autor": "Lewis Carroll"
-    },
-    {
-        "texto": "El éxito no es la clave de la felicidad. La felicidad es la clave del éxito.",
-        "autor": "Albert Schweitzer"
-    },
-    {
-        "texto": "Cree que puedes, y ya estarás a medio camino.",
-        "autor": "Theodore Roosevelt"
-    },
-    {
-        "texto": "El futuro pertenece a quienes creen en la belleza de sus sueños.",
-        "autor": "Eleanor Roosevelt"
-    },
-    {
-        "texto": "Nunca es demasiado tarde para ser lo que podrías haber sido.",
-        "autor": "George Eliot"
-    },
-    {
-        "texto": "El fracaso es solo la oportunidad de comenzar de nuevo con más experiencia.",
-        "autor": "Henry Ford"
-    },
-    {
-        "texto": "No temas a la perfección, nunca la alcanzarás.",
-        "autor": "Salvador Dalí"
-    },
-    {
-        "texto": "El coraje no siempre ruge, a veces es esa pequeña voz que dice: 'Mañana lo intentaré de nuevo'.",
-        "autor": "Mary Anne Radmacher"
-    },
-    {
-        "texto": "Un viaje de mil millas comienza con un solo paso.",
-        "autor": "Lao-Tsé"
-    },
-    {
-        "texto": "La vida no se trata de encontrarte a ti misma, sino de crearte a ti misma.",
-        "autor": "George Bernard Shaw"
-    },
-    {
-        "texto": "El único rival que vale la pena vencer es tu yo del pasado.",
-        "autor": "Desconocido"
-    },
-    {
-        "texto": "Si no hago al mundo más accesible no es porque no quiera o porque no pueda. Es porque no me dejan.",
-        "autor": "Katherine Vargas (KathWare)"
-    },
-    {
-        "texto": "La diferencia entre caridad y solidaridad es que cuando uno es caritativo da lo que le sobra. Ser caritativo es mirar al otro desde arriba. Solidaridad es dar lo que uno tiene o incluso lo que le falta.",
-        "autor": "Katherine Vargas (KathWare)"
-    },
-    {
-        "texto": "La diversidad no es un problema a solucionar, es la riqueza que nos hace humanos.",
-        "autor": "Katherine Vargas (KathWare)"
-    },
-    {
-        "texto": "No necesitamos hablar por quienes han sido silenciados, necesitamos asegurarnos de que sean escuchados.",
-        "autor": "Katherine Vargas (KathWare)"
-    },
-    {
-        "texto": "La lucha por la igualdad no es una tendencia, es un compromiso de por vida.",
-        "autor": "Katherine Vargas (KathWare)"
-    }
+  {
+    "texto": "La sociedad primero discrimina, juzga, prejuzga, habla, opina, critica, acusa, minimiza y daña antes de empatizar, entender, escuchar, comprender, y si no se puede, abrazar y contener.",
+    "autor": "Katherine Vargas (KathWare)"
+  },
+  {
+    "texto": "No es mi culpa si no sé cómo ayudar a alguien. No es mi culpa, ni la tuya, si no supiste o no pudiste ayudarme. No es nuestra culpa si no supimos cómo acompañar a alguien en situaciones que nadie nos enseñó a enfrentar.",
+    "autor": "Katherine Vargas (KathWare)"
+  },
+  {
+    "texto": "La confianza es el regalo más valioso que una persona puede darte. No la rompas. Porque una vez rota, no puede volver a reconstruirse.",
+    "autor": "Katherine Vargas (KathWare)"
+  },
+  {
+    "texto": "La Inteligencia Artificial es una herramienta más como lo es un cuchillo, un martillo o un machete. El propósito con el que la utilicemos es decisión nuestra.",
+    "autor": "Katherine Vargas (KathWare)"
+  },
+  {
+    "texto": "La accesibilidad no es un privilegio ni un extra. Es la diferencia entre poder participar o quedar completamente afuera.",
+    "autor": "Katherine Vargas (KathWare)"
+  },
+  {
+    "texto": "No somos ni superhéroes, ni ejemplos de vida, ni personas a las que haya que tener lástima. Somos personas comunes, con una vida como cualquier otra.",
+    "autor": "Katherine Vargas (KathWare)"
+  },
+  {
+    "texto": "Primero somos personas. Después, tenemos una discapacidad. No al revés.",
+    "autor": "Katherine Vargas (KathWare)"
+  },
+  {
+    "texto": "No me admiren, no me idolatren, no me infantilicen. Trátenme como a cualquier otra persona.",
+    "autor": "Katherine Vargas (KathWare)"
+  },
+  {
+    "texto": "La discapacidad no es la barrera. La barrera es el entorno que no está preparado.",
+    "autor": "Katherine Vargas (KathWare)"
+  },
+  {
+    "texto": "La tecnología puede ser increíble, pero si no es accesible, simplemente no es para todos.",
+    "autor": "Katherine Vargas (KathWare)"
+  },
+  {
+    "texto": "Diseñar sin accesibilidad no es un error técnico. Es una decisión que define quién puede usar lo que creaste y quién queda afuera.",
+    "autor": "Katherine Vargas (KathWare)"
+  },
+  {
+    "texto": "No todo lo que funciona está bien. A veces funciona perfectamente… para unos pocos.",
+    "autor": "Katherine Vargas (KathWare)"
+  },
+  {
+    "texto": "Pedirle a una persona ciega que centre su cara en un óvalo es como pedirle a alguien que dibuje con los ojos vendados.",
+    "autor": "Katherine Vargas (KathWare)"
+  },
+  {
+    "texto": "Muchas soluciones ya existen. Lo que falta no es tecnología, es voluntad.",
+    "autor": "Katherine Vargas (KathWare)"
+  },
+  {
+    "texto": "La accesibilidad no se trata de que algo funcione, sino de que todas las personas puedan usarlo sin obstáculos.",
+    "autor": "Katherine Vargas (KathWare)"
+  },
+  {
+    "texto": "No todas las personas tienen a alguien que las ayude. Diseñar pensando que siempre habrá asistencia es excluir desde el inicio.",
+    "autor": "Katherine Vargas (KathWare)"
+  },
+  {
+    "texto": "Los derechos humanos también se juegan en lo digital. Ignorarlo no los hace desaparecer.",
+    "autor": "Katherine Vargas (KathWare)"
+  },
+  {
+    "texto": "La tecnología no es neutral. Cada decisión que se toma al diseñarla tiene un impacto en la vida de las personas.",
+    "autor": "Katherine Vargas (KathWare)"
+  },
+  {
+    "texto": "La discriminación no siempre es explícita. A veces está en lo que no se pensó, en lo que no se diseñó, en lo que se dejó afuera.",
+    "autor": "Katherine Vargas (KathWare)"
+  },
+  {
+    "texto": "Opinar es fácil. Entender requiere tiempo, información y empatía.",
+    "autor": "Katherine Vargas (KathWare)"
+  },
+  {
+    "texto": "La gente habla con una seguridad increíble sobre cosas que nunca vivió, nunca estudió y nunca intentó entender.",
+    "autor": "Katherine Vargas (KathWare)"
+  },
+  {
+    "texto": "No todo el mundo quiere aprender. Mucha gente solo quiere tener razón.",
+    "autor": "Katherine Vargas (KathWare)"
+  },
+  {
+    "texto": "La crítica sin contexto no es análisis. Es ruido.",
+    "autor": "Katherine Vargas (KathWare)"
+  },
+  {
+    "texto": "Reducir realidades complejas a opiniones simples no las hace más claras. Las hace más injustas.",
+    "autor": "Katherine Vargas (KathWare)"
+  },
+  {
+    "texto": "No todo necesita una opinión. A veces lo que falta no es hablar más, sino escuchar mejor.",
+    "autor": "Katherine Vargas (KathWare)"
+  },
+  {
+    "texto": "La identidad de género es un derecho humano básico. No es algo que deba explicarse ni justificarse.",
+    "autor": "Katherine Vargas (KathWare)"
+  },
+  {
+    "texto": "Descubrir quién sos no es un momento. Es un proceso constante de cuestionarte, reconstruirte y volver a empezar.",
+    "autor": "Katherine Vargas (KathWare)"
+  },
+  {
+    "texto": "El feminismo no me dio todas las respuestas, pero sí me dio herramientas para empezar a hacer las preguntas correctas.",
+    "autor": "Katherine Vargas (KathWare)"
+  },
+  {
+    "texto": "Deconstruirse no es un logro. Es un proceso incómodo, constante y muchas veces doloroso.",
+    "autor": "Katherine Vargas (KathWare)"
+  },
+  {
+    "texto": "No se trata de encajar en un molde nuevo. Se trata de dejar de vivir en uno que nunca fue propio.",
+    "autor": "Katherine Vargas (KathWare)"
+  },
+  {
+    "texto": "No se trata de gustarle a la sociedad. Se trata de poder vivir en ella sin miedo.",
+    "autor": "Katherine Vargas (KathWare)"
+  },
+  {
+    "texto": "Hay cosas que no se ven, pero están todo el tiempo. Y el hecho de que no se vean no las hace menos reales.",
+    "autor": "Katherine Vargas (KathWare)"
+  },
+  {
+    "texto": "No todo se soluciona con consejos. A veces lo único que se necesita es que alguien esté, escuche y no minimice.",
+    "autor": "Katherine Vargas (KathWare)"
+  },
+  {
+    "texto": "El problema no es sentir demasiado. El problema es vivir en un entorno que no sabe qué hacer con eso.",
+    "autor": "Katherine Vargas (KathWare)"
+  },
+      {
+    "texto": "Muchas veces no es que las personas no quieran ayudar. Es que nunca aprendieron cómo hacerlo, y en lugar de admitirlo, terminan diciendo o haciendo cosas que lastiman.",
+    "autor": "Katherine Vargas (KathWare)"
+  },
+  {
+    "texto": "El problema no es no saber. El problema es no querer aprender, no querer escuchar y no querer cuestionar lo que siempre dimos por cierto.",
+    "autor": "Katherine Vargas (KathWare)"
+  },
+  {
+    "texto": "Hay situaciones que no se entienden desde afuera. Y cuando se intentan explicar sin haberlas vivido, lo único que se logra es simplificarlas injustamente.",
+    "autor": "Katherine Vargas (KathWare)"
+  },
+  {
+    "texto": "La accesibilidad no debería depender de la buena voluntad de alguien. Debería estar contemplada desde el momento en que algo se diseña.",
+    "autor": "Katherine Vargas (KathWare)"
+  },
+  {
+    "texto": "No es que las herramientas no puedan ser accesibles. Es que muchas veces no se prioriza que lo sean.",
+    "autor": "Katherine Vargas (KathWare)"
+  },
+  {
+    "texto": "Cuando una persona no puede usar una herramienta, el problema no es la persona. El problema es la herramienta.",
+    "autor": "Katherine Vargas (KathWare)"
+  },
+  {
+    "texto": "Pensar en accesibilidad no es pensar en un grupo reducido. Es pensar en la diversidad real de las personas.",
+    "autor": "Katherine Vargas (KathWare)"
+  },
+  {
+    "texto": "Hay cosas que parecen pequeñas para algunos, pero que para otros hacen la diferencia entre poder hacer algo o no poder hacerlo.",
+    "autor": "Katherine Vargas (KathWare)"
+  },
+  {
+    "texto": "No todo lo que duele se nota. Y muchas veces lo que no se ve es lo que más pesa.",
+    "autor": "Katherine Vargas (KathWare)"
+  },
+  {
+    "texto": "Hablar de salud mental no es una moda ni una tendencia. Es una necesidad que durante mucho tiempo fue ignorada.",
+    "autor": "Katherine Vargas (KathWare)"
+  },
+  {
+    "texto": "Hay procesos que no son lineales, que no tienen tiempos claros y que no se pueden medir desde afuera.",
+    "autor": "Katherine Vargas (KathWare)"
+  },
+  {
+    "texto": "No todo el mundo reacciona igual ante las mismas situaciones. Y esperar que lo hagan es no entender cómo funciona la experiencia humana.",
+    "autor": "Katherine Vargas (KathWare)"
+  },
+  {
+    "texto": "La empatía no es sentir lo mismo que la otra persona. Es reconocer que lo que está viviendo es válido, aunque no lo entendamos completamente.",
+    "autor": "Katherine Vargas (KathWare)"
+  },
+  {
+    "texto": "Hay vínculos que ayudan a sostener y otros que, sin querer, terminan haciendo más difícil todo.",
+    "autor": "Katherine Vargas (KathWare)"
+  },
+  {
+    "texto": "No todo lo que parece ayuda realmente lo es. A veces, lo que parece apoyo termina siendo presión o incomprensión.",
+    "autor": "Katherine Vargas (KathWare)"
+  },
+  {
+    "texto": "La inclusión no se trata de adaptar todo después. Se trata de pensar desde el inicio en quienes van a usarlo.",
+    "autor": "Katherine Vargas (KathWare)"
+  },
+  {
+    "texto": "El acceso a la información no debería depender de las capacidades de cada persona, sino de cómo está diseñada esa información.",
+    "autor": "Katherine Vargas (KathWare)"
+  },
+  {
+    "texto": "No es que las personas con discapacidad necesiten ayuda constante. Necesitan entornos que no las limiten todo el tiempo.",
+    "autor": "Katherine Vargas (KathWare)"
+  },
+  {
+    "texto": "El problema no es la diferencia. El problema es una sociedad que no sabe cómo convivir con ella.",
+    "autor": "Katherine Vargas (KathWare)"
+  },
+  {
+    "texto": "Muchas barreras no son visibles hasta que te afectan directamente. Y cuando eso pasa, ya es tarde para ignorarlas.",
+    "autor": "Katherine Vargas (KathWare)"
+  },
+  {
+    "texto": "La tecnología puede acercar o puede excluir. Todo depende de cómo se piense y para quién se diseñe.",
+    "autor": "Katherine Vargas (KathWare)"
+  },
+  {
+    "texto": "No todo lo nuevo es mejor. A veces es simplemente más moderno, pero igual de excluyente.",
+    "autor": "Katherine Vargas (KathWare)"
+  },
+  {
+    "texto": "Hay discursos que parecen inclusivos, pero que en la práctica siguen dejando gente afuera.",
+    "autor": "Katherine Vargas (KathWare)"
+  },
+  {
+    "texto": "Cuestionar lo que siempre hicimos no es destruirlo todo. Es la única forma de mejorarlo.",
+    "autor": "Katherine Vargas (KathWare)"
+  },
+  {
+    "texto": "No se trata de tener razón todo el tiempo. Se trata de estar dispuesto a cambiar cuando entendemos algo nuevo.",
+    "autor": "Katherine Vargas (KathWare)"
+  },
+  {
+    "texto": "Hay ideas que repetimos tanto que dejamos de cuestionarlas, incluso cuando ya no tienen sentido.",
+    "autor": "Katherine Vargas (KathWare)"
+  },
+  {
+    "texto": "La información sin contexto puede ser tan dañina como la desinformación.",
+    "autor": "Katherine Vargas (KathWare)"
+  },
+  {
+    "texto": "No todo el mundo tiene las mismas oportunidades, aunque desde afuera parezca que sí.",
+    "autor": "Katherine Vargas (KathWare)"
+  },
+  {
+    "texto": "El esfuerzo no siempre alcanza cuando el entorno está en contra.",
+    "autor": "Katherine Vargas (KathWare)"
+  },
+  {
+    "texto": "No se trata de superar todo. A veces se trata simplemente de aprender a convivir con lo que nos toca.",
+    "autor": "Katherine Vargas (KathWare)"
+  },
+  {
+    "texto": "No todo lo que incomoda está mal. A veces incomoda porque cuestiona cosas que preferimos no revisar.",
+    "autor": "Katherine Vargas (KathWare)"
+  },
+  {
+    "texto": "Hay discursos que suenan bien, pero en la práctica no cambian nada. Y eso también es una forma de sostener el problema.",
+    "autor": "Katherine Vargas (KathWare)"
+  },
+  {
+    "texto": "La empatía no sirve de mucho si solo aparece cuando es fácil sentirla.",
+    "autor": "Katherine Vargas (KathWare)"
+  },
+  {
+    "texto": "No todo el mundo tiene el mismo punto de partida. Y actuar como si lo tuvieran es ignorar una parte enorme de la realidad.",
+    "autor": "Katherine Vargas (KathWare)"
+  },
+  {
+    "texto": "Hay cosas que se naturalizan tanto que dejan de cuestionarse, incluso cuando claramente no están bien.",
+    "autor": "Katherine Vargas (KathWare)"
+  },
+  {
+    "texto": "No todo el que opina quiere entender. Y no todo el que escucha está dispuesto a cambiar.",
+    "autor": "Katherine Vargas (KathWare)"
+  },
+  {
+    "texto": "El problema no es equivocarse. El problema es no querer reconocerlo cuando pasa.",
+    "autor": "Katherine Vargas (KathWare)"
+  },
+  {
+    "texto": "Hay situaciones que no necesitan soluciones rápidas, necesitan tiempo, escucha y procesos reales.",
+    "autor": "Katherine Vargas (KathWare)"
+  },
+  {
+    "texto": "No todo se puede explicar en pocas palabras. Y cuando se intenta, muchas veces se pierde lo más importante.",
+    "autor": "Katherine Vargas (KathWare)"
+  },
+  {
+    "texto": "La sociedad muchas veces exige fortaleza, pero no ofrece el contexto necesario para sostenerla.",
+    "autor": "Katherine Vargas (KathWare)"
+  },
+  {
+    "texto": "No todo el mundo tiene las herramientas para atravesar lo mismo de la misma manera. Y eso también debería tenerse en cuenta.",
+    "autor": "Katherine Vargas (KathWare)"
+  },
+  {
+    "texto": "Hay formas de ayudar que no ayudan. Y hay silencios que acompañan más que muchas palabras.",
+    "autor": "Katherine Vargas (KathWare)"
+  },
+  {
+    "texto": "No todo lo que parece inclusión lo es. A veces es solo una forma más sutil de dejar afuera.",
+    "autor": "Katherine Vargas (KathWare)"
+  },
+  {
+    "texto": "La accesibilidad no se resuelve con parches. Se construye desde la base.",
+    "autor": "Katherine Vargas (KathWare)"
+  },
+  {
+    "texto": "No es que falten soluciones. Muchas veces falta decisión para implementarlas.",
+    "autor": "Katherine Vargas (KathWare)"
+  },
+  {
+    "texto": "Hay barreras que no se ven hasta que las vivís. Y cuando las vivís, entendés todo lo que antes ignorabas.",
+    "autor": "Katherine Vargas (KathWare)"
+  },
+  {
+    "texto": "No todo lo que se critica está mal. A veces la crítica es lo único que permite ver lo que no funciona.",
+    "autor": "Katherine Vargas (KathWare)"
+  },
+  {
+    "texto": "Cuestionar no es atacar. Es intentar entender mejor lo que está pasando.",
+    "autor": "Katherine Vargas (KathWare)"
+  },
+  {
+    "texto": "No todo el mundo está listo para escuchar ciertas cosas. Y eso también explica muchas reacciones.",
+    "autor": "Katherine Vargas (KathWare)"
+  },
+  {
+    "texto": "Hay verdades que incomodan no porque sean falsas, sino porque son difíciles de aceptar.",
+    "autor": "Katherine Vargas (KathWare)"
+  },
+  {
+    "texto": "No todo lo que duele se evita. A veces se atraviesa, aunque no haya garantías de que sea más fácil después.",
+    "autor": "Katherine Vargas (KathWare)"
+  },
+  {
+    "texto": "La comprensión no siempre llega rápido. Y forzarla muchas veces la aleja más.",
+    "autor": "Katherine Vargas (KathWare)"
+  },
+  {
+    "texto": "No todo lo que parece progreso lo es. A veces es solo una mejora superficial que deja intactos los problemas de fondo.",
+    "autor": "Katherine Vargas (KathWare)"
+  },
+  {
+    "texto": "Hay cambios que no se ven de un día para el otro, pero eso no significa que no estén ocurriendo.",
+    "autor": "Katherine Vargas (KathWare)"
+  },
+  {
+    "texto": "No todo se trata de resultados inmediatos. Hay procesos que necesitan tiempo para poder sostenerse.",
+    "autor": "Katherine Vargas (KathWare)"
+  },
+  {
+    "texto": "No todo lo que se rompe puede volver a ser igual. Y a veces aceptar eso también es parte del proceso.",
+    "autor": "Katherine Vargas (KathWare)"
+  },
+  {
+    "texto": "Hay cosas que no vuelven a ser como antes. Y no siempre eso es algo negativo.",
+    "autor": "Katherine Vargas (KathWare)"
+  },
+  {
+    "texto": "No todo el mundo está en el mismo momento de su proceso. Y compararlos solo genera más distancia.",
+    "autor": "Katherine Vargas (KathWare)"
+  },
+  {
+    "texto": "No todo lo que se siente se puede explicar. Y no todo lo que se explica logra transmitir lo que se siente.",
+    "autor": "Katherine Vargas (KathWare)"
+  },
+  {
+    "texto": "Hay experiencias que no se olvidan. No porque quieras recordarlas, sino porque cambian la forma en la que ves todo.",
+    "autor": "Katherine Vargas (KathWare)"
+  },
+        {
+  "texto": "Si no hago al mundo más accesible no es porque no quiera o porque no pueda. Es porque no me dejan.",
+  "autor": "Katherine Vargas (KathWare)"
+},
+      {
+    "texto": "La mente es como un paracaídas, solo funciona si la tenemos abierta.",
+    "autor": "Atribuido a Albert Einstein"
+  },
+  {
+    "texto": "Todos somos muy ignorantes. Lo que ocurre es que no todos ignoramos las mismas cosas.",
+    "autor": "Atribuido a Albert Einstein"
+  },
+  {
+    "texto": "La imaginación es más importante que el conocimiento.",
+    "autor": "Albert Einstein"
+  },
+  {
+    "texto": "Dos cosas son infinitas: la estupidez humana y el universo. Y ni siquiera estoy seguro de lo segundo.",
+    "autor": "Atribuido a Albert Einstein"
+  },
+  {
+    "texto": "Locura es querer hacer las mismas cosas esperando resultados distintos.",
+    "autor": "Atribuido a Albert Einstein"
+  },
+  {
+    "texto": "Compartir es bueno, y con el software es imprescindible.",
+    "autor": "Richard Stallman"
+  },
+  {
+    "texto": "Si el programa controla al usuario, entonces no es el usuario quien controla su vida digital.",
+    "autor": "Richard Stallman"
+  },
+  {
+    "texto": "La tecnología debería servir a las personas, no controlarlas.",
+    "autor": "Richard Stallman"
+  },
+  {
+    "texto": "Pensar no es repetir lo que ya sabemos. Pensar es animarse a dudar.",
+    "autor": "Darío Sztajnszrajber"
+  },
+  {
+    "texto": "La filosofía no da respuestas, incomoda las certezas.",
+    "autor": "Darío Sztajnszrajber"
+  },
+  {
+    "texto": "Cuestionar lo obvio es el primer paso para entender algo distinto.",
+    "autor": "Darío Sztajnszrajber"
+  },
+  {
+    "texto": "La sociedad del rendimiento convierte a las personas en sus propios explotadores.",
+    "autor": "Byung-Chul Han"
+  },
+  {
+    "texto": "La autoexigencia constante no libera, agota.",
+    "autor": "Byung-Chul Han"
+  },
+  {
+    "texto": "Mucha gente pequeña, en lugares pequeños, haciendo cosas pequeñas, puede cambiar el mundo.",
+    "autor": "Eduardo Galeano"
+  },
+  {
+    "texto": "La utopía está en el horizonte. Camino dos pasos, ella se aleja dos pasos.",
+    "autor": "Eduardo Galeano"
+  },
+  {
+    "texto": "Al fin y al cabo, somos lo que hacemos para cambiar lo que somos.",
+    "autor": "Eduardo Galeano"
+  },
+  {
+    "texto": "Lo urgente no deja tiempo para lo importante.",
+    "autor": "Mafalda"
+  },
+  {
+    "texto": "¿No sería más progresista preguntar dónde vamos a seguir, en vez de dónde vamos a parar?",
+    "autor": "Mafalda"
+  },
+  {
+    "texto": "Empieza el día con una sonrisa y verás lo divertido que es ir por ahí desentonando con todo el mundo.",
+    "autor": "Mafalda"
+  }
 ]
