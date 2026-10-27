@@ -1,81 +1,59 @@
-## 💊 **Pastillas Inspiradoras - Skill para Alexa**  
+# KathWare JSONs
 
-📌 **Autor:** Katherine Vargas | [(KathWare)](https://kathware.com.ar)  
-📅 **Última actualización:** 2025-02-08  
+Repositorio público de datos JSON utilizados por las herramientas de [KathWare](https://kathware.com.ar/).
 
----
+Este repositorio comenzó como **Pastillas Inspiradoras**, el proyecto de frases para Alexa. La skill de Alexa ya no está en uso; los archivos de esa implementación se conservan como antecedentes históricos y no son necesarios para el funcionamiento de **KathWare Dice** en el sitio.
 
-### 📌 **Descripción del Proyecto**  
+## Datos disponibles
 
-**Pastillas Inspiradoras** es una skill para Amazon Alexa que proporciona **frases motivacionales** al azar.  
-Solo di:  
-🗣️ `"Alexa, abre Pastillas Inspiradoras"`  
-Y recibirás una frase de inspiración aleatoria.  
+| Archivo | Contenido |
+| --- | --- |
+| [`frases.json`](./frases.json) | Frases de KathWare Dice. Actualmente es un arreglo de objetos con los campos `texto` y `autor`. |
+| [`version.json`](./version.json) | Manifiesto de versiones de los conjuntos de datos publicados. |
+| [`version.md`](./version.md) | Historial histórico del proyecto original. |
 
-✔ **Frases de autores famosos y reflexiones inspiradoras.**  
-✔ **Base de datos actualizable sin necesidad de modificar la skill.**  
-✔ **Disponible en español para España, México y Estados Unidos.**  
-✔ **Compatible con Amazon Echo y la app de Alexa en smartphones.**  
+Más adelante podrán incorporarse `apps.json` y `anuncios.json`, con su propia estructura y control de versiones.
 
----
+## Formato de las frases
 
-### 🚀 **Cómo usar la Skill**  
+```json
+[
+  {
+    "texto": "Ejemplo de una frase.",
+    "autor": "Autor de la frase"
+  }
+]
+```
 
-Puedes activarla diciendo:  
-🔹 **"Alexa, abre Pastillas Inspiradoras"**  
-🔹 **"Alexa, dame una frase de ánimo"**  
-🔹 **"Alexa, quiero una pastilla de inspiración"**  
+El sitio selecciona una frase aleatoria del archivo y la presenta como texto, sin interpretar HTML. Los nombres de las propiedades `texto` y `autor` deben mantenerse para conservar la compatibilidad.
 
-Si quieres repetir la última frase que escuchaste, di:  
-🔹 **"Alexa, repite la frase"**  
+## Control de versiones de datos
 
-Para salir, puedes decir:  
-🔹 **"Alexa, salir"** o **"Alexa, cerrar skill"**  
+`version.json` registra la versión de cada recurso. Por ejemplo:
 
----
+```json
+{
+  "esquema": 1,
+  "recursos": {
+    "frases": {
+      "archivo": "frases.json",
+      "version": "1.3.3",
+      "actualizado": "2026-03-19"
+    }
+  }
+}
+```
 
-### 📂 **Estructura del Proyecto**  
+**Cuando se modifique `frases.json`, se debe actualizar también `recursos.frases.version` y la fecha**. El lector web puede comparar este número con la versión almacenada en el navegador y descargar las frases solo cuando cambien. Cada conjunto futuro podrá tener su propia versión independiente.
 
-📌 **Datos de la Skill:**  
-- 📝 **[`frases.json`](./frases.json)** → Contiene las frases inspiradoras.  
-- 📜 **[`version.md`](./version.md)** → Registro de versiones y mejoras.  
+## Uso en KathWare
 
-📌 **Código fuente:**  
-- 🖥️ **[`skill-alexa.js`](./skill-alexa.js)** → Código principal de la Skill.  
+Los JSON son públicos y están destinados a ser consumidos por las páginas y componentes del sitio. Conviene usar las URL de la rama principal del repositorio para las cargas remotas y disponer de un comportamiento alternativo cuando falle la red.
 
----
+La información se publica de forma independiente del código PHP, JavaScript o HTML que la presenta. Los componentes del sitio se mantienen en WPCode Lite y pueden consumir estos archivos sin necesidad de modificar el tema de WordPress.
 
-### 📜 **Historial de Versiones**  
+## Licencias e historia
 
-🔗 **[📜 Consulta aquí el Historial de Versiones](version.md)**  
+Consultar [`LICENSE.md`](./LICENSE.md) para el código y los documentos originales del repositorio. El contenido literario de las frases debe conservar sus créditos y condiciones de uso originales. Esta reorganización no modifica automáticamente sus licencias.
 
----
-
-### 🔒 **Política de Privacidad**  
-
-Esta skill **no almacena datos personales** ni requiere permisos adicionales.  
-🔗 **[📄 Consulta aquí la Política de Privacidad](https://dragonmoon1522.github.io/Pastillas-Inspiradoras/Politica%20de%20Privacidad)**  
-
----
-
-### 🎨 **Próximas Mejoras**  
-
-🚀 **Agregar más frases inspiradoras.**  
-🚀 **Optimizar tiempos de respuesta en Alexa.**  
-🚀 **Mejorar la interacción para usuarios nuevos.**  
-
----
-
-### 📜 Licencia
-
-Este proyecto está licenciado bajo la **GNU GPL v3**. Consulta el archivo [`LICENSE`](LICENSE) para más detalles.
-
-Los documentos que contienen texto en formato .json o html estático están licenciados bajo **Creative Commons BY-NC-SA 4.0**.
-
----
-
-### 💜 **Agradecimientos**  
-
-Desarrollado por **Katherine Vargas** [(KathWare)](https://kathware.com.ar).  
-
-📢 **¡Gracias por probar "Pastillas Inspiradoras"!**  
+El código original de Alexa permanece en el historial y los archivos del repositorio solamente como referencia; **no forma parte de los componentes activos de KathWare**.
