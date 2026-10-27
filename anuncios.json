@@ -1,0 +1,508 @@
+{
+  "esquema": "kathware-anuncios/v1",
+  "version": "2026.10.27",
+  "titulo": "Productos y servicios recomendados",
+  "introduccion": [
+    "En esta página podés encontrar productos, servicios, sitios y emprendimientos recomendados o difundidos por KathWare.",
+    "Algunas recomendaciones surgen de mi propia experiencia; otras permiten apoyar económicamente el sitio mediante enlaces de afiliados o referidos. También hay un espacio para difundir productos y servicios ofrecidos por personas con discapacidad.",
+    "Estas recomendaciones también aparecen de forma aleatoria al principio de las páginas y entradas de KathWare."
+  ],
+  "categorias": [
+    {
+      "id": "servicios",
+      "titulo": "Propuestas y servicios de KathWare",
+      "descripcion": [],
+      "orden": 0
+    },
+    {
+      "id": "emprendimientos",
+      "titulo": "Emprendimientos",
+      "descripcion": [
+        "En esta sección se difunden emprendimientos, productos y servicios ofrecidos por personas con discapacidad. Las consultas, contrataciones y acuerdos se realizan directamente con cada persona responsable."
+      ],
+      "orden": 1
+    },
+    {
+      "id": "sitios-recomendados",
+      "titulo": "Servicios y sitios recomendados",
+      "descripcion": [
+        "Los servicios de esta sección fueron utilizados o evaluados por KathWare. Sus fichas contienen enlaces de afiliados o referidos: si te registrás o contratás mediante ellos, KathWare puede recibir una comisión o beneficio. Utilizarlos no modifica necesariamente el precio ni las condiciones del servicio para vos."
+      ],
+      "orden": 2
+    },
+    {
+      "id": "productos",
+      "titulo": "Productos recomendados en Mercado Libre",
+      "descripcion": [
+        "Nuestra propia experiencia al servicio de todos: productos que compramos, probamos y nos dieron buenos resultados."
+      ],
+      "orden": 3
+    }
+  ],
+  "anuncios": [
+    {
+      "id": "servicios-de-accesibilidad-digital",
+      "tipo": "servicio",
+      "etiqueta": "Servicio de KathWare",
+      "categoria": "servicios",
+      "orden": 1,
+      "titulo": "Servicios de accesibilidad digital",
+      "titulo_url": "/servicios-de-accesibilidad-digital/",
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "html": "<strong>Servicio de KathWare</strong>"
+        },
+        {
+          "tipo": "parrafo",
+          "html": "Evaluación, asesoramiento y soluciones orientadas a mejorar la accesibilidad de sitios web, aplicaciones y otros productos digitales."
+        },
+        {
+          "tipo": "parrafo",
+          "html": "<a href=\"/servicios-de-accesibilidad-digital/\">Conocer los servicios de accesibilidad digital</a>."
+        }
+      ],
+      "activa": true
+    },
+    {
+      "id": "difusion-en-kathware",
+      "tipo": "servicio",
+      "etiqueta": "Servicio de difusión de KathWare",
+      "categoria": "servicios",
+      "orden": 2,
+      "titulo": "Difundí tu producto o servicio en KathWare",
+      "titulo_url": "/anuncios/",
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "html": "<strong>Servicio de difusión de KathWare</strong>"
+        },
+        {
+          "tipo": "parrafo",
+          "html": "Si sos una persona con discapacidad y tenés un emprendimiento, producto o servicio, KathWare puede ayudarte a difundirlo."
+        },
+        {
+          "tipo": "parrafo",
+          "html": "Para participar, enviame la siguiente información:"
+        },
+        {
+          "tipo": "lista",
+          "ordenada": false,
+          "elementos": [
+            "Tu nombre y apellido.",
+            "El nombre de tu emprendimiento, producto o servicio.",
+            "Un medio de contacto para las personas interesadas.",
+            "Ubicación donde ofrecés tu producto o servicio: ciudad, provincia/estado, país, etc.",
+            "Redes sociales o sitios donde pueda conocerse lo que ofrecés."
+          ]
+        },
+        {
+          "tipo": "parrafo",
+          "html": "Podés enviarme estos datos por <a href=\"https://wa.me/message/CZGCOQCYK2FZG1\" rel=\"noopener\" target=\"_blank\">WhatsApp</a> o por correo electrónico a <a href=\"mailto:kathware.contacto@gmail.com?subject=Recomendación%20para%20KathWare\">kathware.contacto@gmail.com</a>."
+        },
+        {
+          "tipo": "parrafo",
+          "html": "KathWare funciona como intermediario de difusión: presenta el producto, servicio o emprendimiento y facilita un punto de contacto. Las consultas, compras, contrataciones y acuerdos posteriores se realizan directamente con la persona responsable."
+        },
+        {
+          "tipo": "parrafo",
+          "html": "El servicio actualmente es gratuito. Esto permite ampliar la difusión del sitio y su contenido y, al mismo tiempo, dar a conocer emprendimientos, productos y servicios a potenciales clientes."
+        }
+      ],
+      "activa": true
+    },
+    {
+      "id": "pablo-balbi-masajista-profesional",
+      "tipo": "emprendimiento",
+      "etiqueta": "Emprendimiento difundido por KathWare",
+      "categoria": "emprendimientos",
+      "orden": 3,
+      "titulo": "Pablo, masajista profesional — Tu relax en nuestras manos",
+      "titulo_url": null,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "html": "<strong>Emprendimiento difundido por KathWare</strong>"
+        },
+        {
+          "tipo": "parrafo",
+          "html": "¿Buscás un momento para relajarte y desconectarte?"
+        },
+        {
+          "tipo": "parrafo",
+          "html": "<strong>Pablo Balbi</strong> ofrece servicios de <strong>masajes y Reiki</strong> en la ciudad de <strong>Rosario, Santa Fe</strong>, a través de <strong>Tu relax en nuestras manos</strong>."
+        },
+        {
+          "tipo": "parrafo",
+          "html": "<strong>Contacto y redes</strong>"
+        },
+        {
+          "tipo": "lista",
+          "ordenada": false,
+          "elementos": [
+            "<strong>Teléfono:</strong> <a href=\"tel:+543415882680\">341 588-2680</a>.",
+            "<strong>Instagram:</strong> <a href=\"https://www.instagram.com/pablomasajistaprofesional/\" rel=\"noopener\" target=\"_blank\">@pablomasajistaprofesional</a>.",
+            "<strong>Google:</strong> <a href=\"https://share.google/CwKTg1BzWsJK9iuEj\" rel=\"noopener\" target=\"_blank\">Pablo, masajista profesional — Tu relax en nuestras manos</a>."
+          ]
+        }
+      ],
+      "activa": true
+    },
+    {
+      "id": "global66",
+      "tipo": "referido",
+      "etiqueta": "Servicio recomendado por KathWare",
+      "categoria": "sitios-recomendados",
+      "orden": 4,
+      "titulo": "Global66",
+      "titulo_url": null,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "html": "<strong>Servicio recomendado por KathWare</strong>"
+        },
+        {
+          "tipo": "parrafo",
+          "html": "Plataforma para enviar, recibir y administrar dinero en diferentes monedas."
+        },
+        {
+          "tipo": "parrafo",
+          "html": "<a href=\"https://share.global66.com/KATVAR2009\" rel=\"noopener sponsored\" target=\"_blank\">Registrarte en Global66 mediante el enlace de referido de KathWare</a>."
+        },
+        {
+          "tipo": "parrafo",
+          "html": "<small>Este es un enlace de referido. KathWare puede recibir un beneficio si lo utilizás.</small>"
+        }
+      ],
+      "activa": true
+    },
+    {
+      "id": "sitios-hispanos",
+      "tipo": "afiliado",
+      "etiqueta": "Servicio recomendado por KathWare",
+      "categoria": "sitios-recomendados",
+      "orden": 5,
+      "titulo": "Sitios Hispanos",
+      "titulo_url": null,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "html": "<strong>Servicio recomendado por KathWare</strong>"
+        },
+        {
+          "tipo": "parrafo",
+          "html": "Servicio de hosting utilizado y recomendado por KathWare. Cuenta con atención al cliente y soporte técnico durante las 24 horas, precios accesibles y una interfaz intuitiva, accesible y amigable. Nuestras preguntas nunca les molestan."
+        },
+        {
+          "tipo": "parrafo",
+          "html": "<a href=\"https://www.sitioshispanos.com/es/aff.php?aff=5884\" rel=\"noopener sponsored\" target=\"_blank\">Conocer los planes de Sitios Hispanos</a>."
+        },
+        {
+          "tipo": "parrafo",
+          "html": "<small>Este es un enlace de afiliado. KathWare puede recibir una comisión si lo utilizás.</small>"
+        }
+      ],
+      "activa": true
+    },
+    {
+      "id": "red-de-proteccion-para-gatos",
+      "tipo": "producto-afiliado",
+      "etiqueta": "Producto recomendado por KathWare",
+      "categoria": "productos",
+      "orden": 6,
+      "titulo": "Red de protección para gatos",
+      "titulo_url": null,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "html": "<strong>Producto recomendado por KathWare</strong>"
+        },
+        {
+          "tipo": "parrafo",
+          "html": "Para proteger a Kata y evitar que pudiera caerse por la ventana de nuestro departamento, compramos esta red. Nos resultó económica, fácil de instalar y adaptable a distintos espacios. Según la publicación, resiste hasta 30 kilos."
+        },
+        {
+          "tipo": "parrafo",
+          "html": "<a href=\"https://meli.la/1U9gyCQ\" rel=\"noopener sponsored\" target=\"_blank\">Ver la red de protección para balcón o ventana en Mercado Libre</a>."
+        },
+        {
+          "tipo": "parrafo",
+          "html": "<small>Este es un enlace de afiliado. KathWare puede recibir una comisión si comprás el producto mediante este enlace.</small>"
+        }
+      ],
+      "activa": true
+    },
+    {
+      "id": "cargador-portatil-universal",
+      "tipo": "producto-afiliado",
+      "etiqueta": "Producto recomendado por KathWare",
+      "categoria": "productos",
+      "orden": 7,
+      "titulo": "El mejor cargador portátil para celulares",
+      "titulo_url": null,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "html": "<strong>Producto recomendado por KathWare</strong>"
+        },
+        {
+          "tipo": "parrafo",
+          "html": "Incluye tres cables con conectores diferentes, permite añadir otro cable USB y ofrece dos formas de recargarlo: Micro-USB y USB-C. De haber sabido antes que podía ganar dinero recomendándolo, lo habría hecho: cuatro personas ya lo compraron por recomendación mía directa."
+        },
+        {
+          "tipo": "parrafo",
+          "html": "<a href=\"https://meli.la/2pQNaUu\" rel=\"noopener sponsored\" target=\"_blank\">Ver el cargador portátil universal en Mercado Libre</a>."
+        },
+        {
+          "tipo": "parrafo",
+          "html": "<small>Este es un enlace de afiliado. KathWare puede recibir una comisión si comprás el producto mediante este enlace.</small>"
+        }
+      ],
+      "activa": true
+    },
+    {
+      "id": "simbolos-letras-y-numeros-braille",
+      "tipo": "producto-afiliado",
+      "etiqueta": "Producto recomendado por KathWare",
+      "categoria": "productos",
+      "orden": 8,
+      "titulo": "Símbolos, letras y números braille impresos en 3D",
+      "titulo_url": null,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "html": "<strong>Producto recomendado por KathWare</strong>"
+        },
+        {
+          "tipo": "parrafo",
+          "html": "La publicación los describe como una “impresora manual”, aunque el término resulta un poco extraño. Básicamente, son piezas semejantes a pequeños broches que presentan un símbolo, letra o número en braille y, en la parte superior, su equivalente en tinta y relieve. Los colores pueden personalizarse."
+        },
+        {
+          "tipo": "parrafo",
+          "html": "Son útiles para rotular frascos de condimentos y otros objetos de la casa, y también como recurso para enseñar braille o escritura en tinta a niños y adultos."
+        },
+        {
+          "tipo": "parrafo",
+          "html": "<a href=\"https://meli.la/2zV3nx2\" rel=\"noopener sponsored\" target=\"_blank\">Ver la combinación de letras, símbolos y números braille en Mercado Libre</a>."
+        },
+        {
+          "tipo": "parrafo",
+          "html": "<small>Este es un enlace de afiliado. KathWare puede recibir una comisión si comprás el producto mediante este enlace.</small>"
+        }
+      ],
+      "activa": true
+    },
+    {
+      "id": "oraculo-gatitos-el-gato-sabe",
+      "tipo": "producto-afiliado",
+      "etiqueta": "Producto recomendado por KathWare",
+      "categoria": "productos",
+      "orden": 9,
+      "titulo": "Un oráculo con la sabiduría de nuestros compañeros felinos",
+      "titulo_url": null,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "html": "<strong>Producto recomendado por KathWare</strong>"
+        },
+        {
+          "tipo": "parrafo",
+          "html": "Son 45 cartas que se eligen al azar. Buscás el número de la carta que elegiste en el librito y ves qué mensaje te depara cada gatito para el resto de tu día. Sacá un mensaje por día y vas a tener una vida más gatuna y menos humana."
+        },
+        {
+          "tipo": "parrafo",
+          "html": "Lo compré en la Feria del Libro hace un tiempo y, aunque quise pasarlo a braille con ayuda, aún no pudimos terminarlo. Aun así, si utilizás inteligencia artificial para obtener las descripciones, vas a poder leerlo sin problemas."
+        },
+        {
+          "tipo": "parrafo",
+          "html": "<a href=\"https://meli.la/2VgiMBK\" rel=\"noopener sponsored\" target=\"_blank\">Ver el oráculo El gato sabe en Mercado Libre</a>."
+        },
+        {
+          "tipo": "parrafo",
+          "html": "<small>Este es un enlace de afiliado. KathWare puede recibir una comisión si comprás el producto mediante este enlace.</small>"
+        }
+      ],
+      "activa": true
+    },
+    {
+      "id": "tensiometro-parlante",
+      "tipo": "producto-afiliado",
+      "etiqueta": "Producto recomendado por KathWare",
+      "categoria": "productos",
+      "orden": 10,
+      "titulo": "Tensiómetro parlante digital para personas adultas y con discapacidad",
+      "titulo_url": null,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "html": "<strong>Producto recomendado por KathWare</strong>"
+        },
+        {
+          "tipo": "parrafo",
+          "html": "Tensiómetro parlante con pantalla grande. Puede tener hasta dos usuarios y 60 memorias. Lleva pilas AA, pero también se le puede comprar un transformador, ya que incluye una entrada para conectarlo. Además de medir la presión diastólica y sistólica, mide la cantidad de pulsaciones por minuto."
+        },
+        {
+          "tipo": "parrafo",
+          "html": "Lo tengo desde hace tres años. Hace poco mi abuela empezó a tener dificultades visuales y también se lo recomendé. Ahora puede medirse la presión sin depender de otras personas."
+        },
+        {
+          "tipo": "parrafo",
+          "html": "<a href=\"https://meli.la/1iMvkgX\" rel=\"noopener sponsored\" target=\"_blank\">Ver el tensiómetro digital parlante en Mercado Libre</a>."
+        },
+        {
+          "tipo": "parrafo",
+          "html": "<small>Este es un enlace de afiliado. KathWare puede recibir una comisión si comprás el producto mediante este enlace.</small>"
+        }
+      ],
+      "activa": true
+    },
+    {
+      "id": "auricular-sound-blaster-jam",
+      "tipo": "producto-afiliado",
+      "etiqueta": "Producto recomendado por KathWare",
+      "categoria": "productos",
+      "orden": 11,
+      "titulo": "Auricular inalámbrico Sound Blaster JAM de larga duración",
+      "titulo_url": null,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "html": "<strong>Producto recomendado por KathWare</strong>"
+        },
+        {
+          "tipo": "parrafo",
+          "html": "Los mejores auriculares Bluetooth que jamás conocí. Tienen batería de larga duración, conexión y carga por cable, ecualizador de graves y agudos, controles de volumen y controles para pasar de pista, pausar y reproducir. También permiten atender llamadas y llamar al último número de teléfono presionando dos veces el botón principal."
+        },
+        {
+          "tipo": "parrafo",
+          "html": "Los míos cumplieron diez años desde que los compré y todavía funcionan perfectamente. Resistieron tiradas de Kata al piso, lluvia, patadas, golpes, vuelos por el aire e intentos de sustracción. Sin duda, son de esas compras de las que no te arrepentís nunca en la vida."
+        },
+        {
+          "tipo": "parrafo",
+          "html": "<a href=\"https://meli.la/2sZQ9m2\" rel=\"noopener sponsored\" target=\"_blank\">Ver el auricular inalámbrico Sound Blaster JAM en Mercado Libre</a>."
+        },
+        {
+          "tipo": "parrafo",
+          "html": "<small>Este es un enlace de afiliado. KathWare puede recibir una comisión si comprás el producto mediante este enlace.</small>"
+        }
+      ],
+      "activa": true
+    },
+    {
+      "id": "torre-de-sonido-top-house",
+      "tipo": "producto-afiliado",
+      "etiqueta": "Producto recomendado por KathWare",
+      "categoria": "productos",
+      "orden": 12,
+      "titulo": "Torre de Sonido Top House TWS I5-4SA20B Bluetooth 40W",
+      "titulo_url": null,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "html": "<strong>Producto recomendado por KathWare</strong>"
+        },
+        {
+          "tipo": "parrafo",
+          "html": "Una torre con 2 parlantes, con 3 parlantitos pequeños cada uno. Viene con base, se enchufa a 220, lo que quiere decir que no es portátil ni a batería. Sin embargo, tiene conexión bluetooth y por cable auxiliar. Cada parlante se enchufa de forma independiente y puede funcionar de forma independiente también, conectándose a distintos dispositivos bluetooth cada uno. Podés adaptar la salida del sonido al tipo de música que escuchás: pop, rock, clásica, etc. Se sube y se baja el volumen desde los propios dispositivos y se puede reproducir y pausar sin importar a qué esté conectado. Una linda potencia distribuida para tu casa. Es como escuchar una peli en el cine."
+        },
+        {
+          "tipo": "parrafo",
+          "html": "Resistió 2 tiradas de Kata al piso a pesar de ser de madera. La base hace que sea fácil colocarla en cualquier mueble o mesa, incluso distanciándolas para una mejor distribución del sonido. Yo la compré en el Coto, pero es la misma. Súper recomendable."
+        },
+        {
+          "tipo": "parrafo",
+          "html": "<a href=\"https://meli.la/2DKHCmu\" rel=\"noopener sponsored\" target=\"_blank\">Ver la torre de sonido Top House en Mercado Libre</a>."
+        },
+        {
+          "tipo": "parrafo",
+          "html": "<small>Este es un enlace de afiliado. KathWare puede recibir una comisión si comprás el producto mediante este enlace.</small>"
+        }
+      ],
+      "activa": true
+    },
+    {
+      "id": "conversor-hdmi-a-rca-av",
+      "tipo": "producto",
+      "etiqueta": "Producto recomendado por KathWare",
+      "categoria": "productos",
+      "orden": 13,
+      "titulo": "Conversor HDMI a RCA/AV",
+      "titulo_url": null,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "html": "<strong>Producto recomendado por KathWare</strong>"
+        },
+        {
+          "tipo": "parrafo",
+          "html": "Un adaptador para conectar dispositivos actuales con salida HDMI a televisores, monitores u otros equipos antiguos que solamente tienen entradas RCA/AV. Puede servir, por ejemplo, para utilizar un decodificador moderno con un televisor de tubo."
+        },
+        {
+          "tipo": "parrafo",
+          "html": "Este producto fue recomendado a KathWare por una usuaria que lo utiliza con un decodificador de Flow."
+        },
+        {
+          "tipo": "parrafo",
+          "html": "<a href=\"https://meli.la/2TdGqyY\" rel=\"noopener\" target=\"_blank\">Ver conversor HDMI a RCA/AV en Mercado Libre</a>."
+        }
+      ],
+      "activa": true
+    },
+    {
+      "id": "hdmi-dummy-plug",
+      "tipo": "producto",
+      "etiqueta": "Producto recomendado por KathWare",
+      "categoria": "productos",
+      "orden": 14,
+      "titulo": "HDMI Dummy Plug — Emulador de monitor",
+      "titulo_url": null,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "html": "<strong>Producto recomendado por KathWare</strong>"
+        },
+        {
+          "tipo": "parrafo",
+          "html": "Un pequeño dispositivo HDMI que hace que la computadora detecte un monitor aunque no haya una pantalla física conectada. Puede resultar especialmente útil en computadoras que se utilizan de forma remota o sin monitor."
+        },
+        {
+          "tipo": "parrafo",
+          "html": "También puede ser una solución interesante para personas ciegas que no necesitan mantener un monitor conectado permanentemente, pero utilizan programas o sistemas de acceso remoto que requieren que Windows detecte una pantalla."
+        },
+        {
+          "tipo": "parrafo",
+          "html": "<a href=\"https://meli.la/2w2mbMa\" rel=\"noopener\" target=\"_blank\">Ver HDMI Dummy Plug en Mercado Libre</a>."
+        }
+      ],
+      "activa": true
+    },
+    {
+      "id": "adaptador-bluetooth-audio-tx-rx",
+      "tipo": "producto",
+      "etiqueta": "Producto recomendado por KathWare",
+      "categoria": "productos",
+      "orden": 15,
+      "titulo": "Adaptador Bluetooth de audio transmisor y receptor",
+      "titulo_url": null,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "html": "<strong>Producto recomendado por KathWare</strong>"
+        },
+        {
+          "tipo": "parrafo",
+          "html": "Un adaptador Bluetooth TX/RX que permite darle conectividad inalámbrica a equipos de audio que no la tienen. En modo receptor puede utilizarse, por ejemplo, para reproducir desde el celular en parlantes o equipos antiguos con entrada auxiliar o RCA."
+        },
+        {
+          "tipo": "parrafo",
+          "html": "En modo transmisor permite hacer el recorrido inverso y enviar el audio de un televisor, computadora u otro equipo hacia auriculares o parlantes Bluetooth."
+        },
+        {
+          "tipo": "parrafo",
+          "html": "<a href=\"https://meli.la/1Tye3z3\" rel=\"noopener\" target=\"_blank\">Ver adaptador Bluetooth transmisor/receptor en Mercado Libre</a>."
+        }
+      ],
+      "activa": true
+    }
+  ]
+}
