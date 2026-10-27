@@ -1,0 +1,10 @@
+{
+  "esquema": 1,
+  "recursos": {
+    "frases": {
+      "archivo": "frases.json",
+      "version": "1.3.3",
+      "actualizado": "2026-03-19"
+    }
+  }
+}
