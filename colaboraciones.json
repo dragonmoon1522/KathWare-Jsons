@@ -1,0 +1,215 @@
+{
+  "esquema": "kathware-colaboraciones/v1",
+  "version": "2026.10.27",
+  "titulo": "Apoyá KathWare",
+  "introduccion": [
+    "KathWare es un proyecto independiente dedicado al desarrollo de herramientas, contenidos y proyectos relacionados con la tecnología y la accesibilidad digital.",
+    "Mantener el sitio, investigar, desarrollar nuevas herramientas y sostener los servicios necesarios para que todo siga funcionando implica tiempo y también costos.",
+    "Si el contenido o alguna de las herramientas de KathWare te resultan útiles, podés colaborar con el proyecto mediante un aporte voluntario. También podés ayudar compartiendo los artículos, herramientas y proyectos para que lleguen a más personas.",
+    "Los aportes ayudan a sostener el sitio y a continuar desarrollando proyectos como <strong>#KathWareSubtitleReader</strong> y <a href=\"/proyectos/\">otros proyectos independientes de accesibilidad digital</a>."
+  ],
+  "categorias": [
+    {
+      "id": "formas-de-colaborar",
+      "titulo": "Formas de colaborar",
+      "descripcion": [],
+      "orden": 0
+    },
+    {
+      "id": "transferencias",
+      "titulo": "Transferencias",
+      "descripcion": [
+        "También podés colaborar mediante transferencia en pesos argentinos, dólares estadounidenses o euros."
+      ],
+      "orden": 1
+    }
+  ],
+  "colaboraciones": [
+    {
+      "id": "colaboracion-general-kathware",
+      "tipo": "colaboracion",
+      "etiqueta": "Colaboración con KathWare",
+      "categoria": "formas-de-colaborar",
+      "orden": 1,
+      "titulo": "Ayudá a sostener KathWare",
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "html": "KathWare es un proyecto independiente dedicado al desarrollo de herramientas, contenidos y proyectos relacionados con la tecnología y la accesibilidad digital."
+        },
+        {
+          "tipo": "parrafo",
+          "html": "Si el contenido o alguna de sus herramientas te resultan útiles, podés colaborar mediante un aporte voluntario o compartiendo el sitio para que llegue a más personas."
+        },
+        {
+          "tipo": "parrafo",
+          "html": "<a href=\"/apoya-kathware/\">Conocer todas las formas de apoyar KathWare</a>."
+        }
+      ],
+      "activa": true
+    },
+    {
+      "id": "colaborar-desde-argentina",
+      "tipo": "colaboracion",
+      "etiqueta": "Colaboración desde Argentina",
+      "categoria": "formas-de-colaborar",
+      "orden": 2,
+      "titulo": "Apoyá KathWare mediante Mercado Pago o Cafecito",
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "html": "Si estás en Argentina, podés realizar un aporte voluntario para ayudar a sostener el sitio, sus herramientas, proyectos de accesibilidad y producción de contenidos."
+        },
+        {
+          "tipo": "lista",
+          "ordenada": false,
+          "elementos": [
+            "<a href=\"https://link.mercadopago.com.ar/kathwareblog\" target=\"_blank\" rel=\"noopener\">Colaborar mediante Mercado Pago</a>.",
+            "<a href=\"https://cafecito.app/kathware\" target=\"_blank\" rel=\"noopener\">Colaborar mediante Cafecito</a>."
+          ]
+        },
+        {
+          "tipo": "parrafo",
+          "html": "<a href=\"/apoya-kathware/\">Ver todas las formas de apoyar KathWare</a>."
+        }
+      ],
+      "activa": true
+    },
+    {
+      "id": "colaborar-mediante-paypal",
+      "tipo": "colaboracion",
+      "etiqueta": "Colaboración internacional",
+      "categoria": "formas-de-colaborar",
+      "orden": 3,
+      "titulo": "Apoyá KathWare mediante PayPal",
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "html": "Si estás fuera de Argentina, podés realizar un aporte voluntario mediante PayPal y ayudar a sostener los proyectos, herramientas y contenidos de KathWare."
+        },
+        {
+          "tipo": "parrafo",
+          "html": "<a href=\"https://paypal.me/kathware\" target=\"_blank\" rel=\"noopener\">Colaborar con KathWare mediante PayPal</a>."
+        },
+        {
+          "tipo": "parrafo",
+          "html": "<a href=\"/apoya-kathware/\">Ver todas las formas de apoyar KathWare desde el exterior</a>."
+        }
+      ],
+      "activa": true
+    },
+    {
+      "id": "transferencia-pesos-argentinos",
+      "tipo": "colaboracion",
+      "etiqueta": "Transferencia en pesos argentinos",
+      "categoria": "transferencias",
+      "orden": 4,
+      "titulo": "Apoyá KathWare mediante una transferencia en pesos",
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "html": "Si estás en Argentina, podés realizar un aporte voluntario mediante transferencia."
+        },
+        {
+          "tipo": "lista",
+          "ordenada": false,
+          "elementos": [
+            "<strong>Entidad:</strong> Global66",
+            "<strong>CBU/CVU:</strong> 0000230300000023836819",
+            "<strong>Alias:</strong> katherivargas.g66",
+            "<strong>Beneficiaria:</strong> Katherine Vanesa Vargas",
+            "<strong>País:</strong> Argentina"
+          ]
+        },
+        {
+          "tipo": "parrafo",
+          "html": "Cuando el medio utilizado permita indicar un concepto o motivo, podés escribir <strong>“KathWare”</strong>."
+        },
+        {
+          "tipo": "parrafo",
+          "html": "<a href=\"/apoya-kathware/\">Ver todas las formas de apoyar KathWare</a>."
+        }
+      ],
+      "activa": true
+    },
+    {
+      "id": "transferencia-dolares",
+      "tipo": "colaboracion",
+      "etiqueta": "Transferencia en dólares",
+      "categoria": "transferencias",
+      "orden": 5,
+      "titulo": "Apoyá KathWare mediante una transferencia en dólares",
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "html": "Podés realizar un aporte voluntario en dólares estadounidenses utilizando los siguientes datos:"
+        },
+        {
+          "tipo": "lista",
+          "ordenada": false,
+          "elementos": [
+            "<strong>Entidad:</strong> Community Federal Savings Bank",
+            "<strong>Número de cuenta:</strong> 8335136121",
+            "<strong>Tipo de cuenta:</strong> Checking",
+            "<strong>Código SWIFT/BIC:</strong> CMFGUS33",
+            "<strong>Routing Number:</strong> 026073150",
+            "<strong>Beneficiaria:</strong> Katherine Vanesa Vargas",
+            "<strong>Dirección del banco:</strong> 5 Penn Plaza, 14th Floor, New York, NY 10001, Estados Unidos",
+            "<strong>País:</strong> Estados Unidos"
+          ]
+        },
+        {
+          "tipo": "parrafo",
+          "html": "Cuando el medio utilizado permita indicar un concepto o motivo, podés escribir <strong>“KathWare”</strong>."
+        },
+        {
+          "tipo": "parrafo",
+          "html": "<a href=\"/apoya-kathware/\">Ver todas las formas de apoyar KathWare desde el exterior</a>."
+        }
+      ],
+      "activa": true
+    },
+    {
+      "id": "transferencia-euros",
+      "tipo": "colaboracion",
+      "etiqueta": "Transferencia en euros",
+      "categoria": "transferencias",
+      "orden": 6,
+      "titulo": "Apoyá KathWare mediante una transferencia en euros",
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "html": "Podés realizar un aporte voluntario en euros utilizando los siguientes datos:"
+        },
+        {
+          "tipo": "lista",
+          "ordenada": false,
+          "elementos": [
+            "<strong>Entidad:</strong> The Currency Cloud Limited",
+            "<strong>IBAN:</strong> GB44TCCL00997941929338",
+            "<strong>Beneficiaria:</strong> Katherine Vanesa Vargas",
+            "<strong>Dirección del banco:</strong> 12 Steward Street, The Steward Building, London, E1 6FQ, Reino Unido",
+            "<strong>País:</strong> Reino Unido",
+            "<strong>Transferencias SEPA:</strong> no requieren código SWIFT."
+          ]
+        },
+        {
+          "tipo": "parrafo",
+          "html": "Cuando el medio utilizado permita indicar un concepto o motivo, podés escribir <strong>“KathWare”</strong>."
+        },
+        {
+          "tipo": "parrafo",
+          "html": "<a href=\"/apoya-kathware/\">Ver todas las formas de apoyar KathWare desde el exterior</a>."
+        }
+      ],
+      "activa": true
+    }
+  ],
+  "contacto": {
+    "titulo": "Contacto y confirmación de aportes",
+    "contenido": [
+      "Si realizaste una transferencia, querés confirmar un aporte o necesitás comunicarte conmigo, podés escribirme por <a href=\"https://wa.me/message/CZGCOQCYK2FZG1\" target=\"_blank\" rel=\"noopener\">WhatsApp Business</a> o enviar un correo electrónico a <a href=\"mailto:kathware.contacto@gmail.com?subject=Aporte%20para%20KathWare\">kathware.contacto@gmail.com</a>.",
+      "<strong>Sobre los aportes voluntarios:</strong> las colaboraciones son voluntarias y no reembolsables. Se utilizan para sostener KathWare, incluyendo el sitio, sus herramientas, los proyectos de accesibilidad y la producción de contenidos."
+    ]
+  }
+}
