@@ -1,0 +1,2757 @@
+{
+  "esquema": "kathware-apps/v1",
+  "version": "2026.10.27",
+  "introduccion": [
+    "Un catálogo de apps que uso desde hace tiempo y otras que fui descubriendo en estos últimos meses, que se han convertido en herramientas y utilidades para el día a día. Además, recomendaciones de usuarios como vos.",
+    "<strong>Advertencia:</strong> algunas apps podrían dejar de estar disponibles o mejorar o empeorar su accesibilidad. Sorry, eso no es mi culpa, es de los desarrolladores XD. ¿Empezamos?"
+  ],
+  "categorias": [
+    {
+      "id": "camino",
+      "titulo": "Infaltables para el camino a cualquier lado",
+      "descripcion": [
+        "Apps pensadas para moverte mejor, orientarte en la calle, ubicarte en el mapa o no perderte del todo en el intento."
+      ],
+      "orden": 0
+    },
+    {
+      "id": "descripciones",
+      "titulo": "Descripciones que te simplifican la vida",
+      "descripcion": [
+        "Herramientas que leen el entorno, describen imágenes, reconocen objetos o convierten lo visual en algo más accesible y usable."
+      ],
+      "orden": 1
+    },
+    {
+      "id": "texto-voz",
+      "titulo": "Texto, voz y todo lo que hay en el medio",
+      "descripcion": [
+        "Lectores, sintetizadores, braille, voz y herramientas para transformar información en algo que realmente puedas escuchar, leer o escribir."
+      ],
+      "orden": 2
+    },
+    {
+      "id": "automatizaciones",
+      "titulo": "Cuidado si no sos dev",
+      "descripcion": [
+        "Automatización, desarrollo y herramientas para quienes quieren hacer que sus dispositivos, sitios y aplicaciones hagan bastante más de lo que sus desarrolladores imaginaron. Algunas son sencillas; otras pueden romper cosas con bastante eficiencia si no sabés qué estás haciendo. XD."
+      ],
+      "orden": 3
+    },
+    {
+      "id": "creatividad",
+      "titulo": "Para cuando la cabeza no se queda quieta",
+      "descripcion": [
+        "Escritura, edición, grabación, publicación y esas herramientas que sirven cuando las ideas no te dejan en paz y hay que hacer algo con ellas."
+      ],
+      "orden": 4
+    },
+    {
+      "id": "multimedia",
+      "titulo": "Para ver, escuchar y reproducir casi cualquier cosa",
+      "descripcion": [
+        "Streaming, televisión, novelas, películas y reproductores multimedia para cuando el contenido importa más que la plataforma donde terminó viviendo."
+      ],
+      "orden": 5
+    },
+    {
+      "id": "IA",
+      "titulo": "Inteligencia Artificial, creatividad y tu propia imaginación",
+      "descripcion": [
+        "Aplicaciones de IA generativa para usos específicos. Podés imaginar, escribir un prompt y se hace realidad. El límite es tu propia mente."
+      ],
+      "orden": 6
+    },
+    {
+      "id": "inclasificables",
+      "titulo": "Las que no sé dónde meter (pero sirven)",
+      "descripcion": [
+        "Una mezcla hermosa de utilidades, asistentes, finanzas, cámara, launchers, subtítulos y otras criaturas difíciles de encasillar, pero demasiado útiles para ignorarlas."
+      ],
+      "orden": 7
+    },
+    {
+      "id": "wordpress",
+      "titulo": "WordPress, porque a veces instalar un plugin es más sensato que programarlo todo",
+      "descripcion": [
+        "Plugins que utilizo en KathWare y que pueden resolver problemas bastante comunes si administrás, desarrollás o mantenés un sitio con WordPress. Si no usás WordPress, podés seguir de largo tranquilamente. XD."
+      ],
+      "orden": 8
+    },
+    {
+      "id": "software-libre",
+      "titulo": "Software Libre, como debería ser",
+      "descripcion": [
+        "Repositorios, clientes, oficina, redes y otras herramientas abiertas que demuestran que se puede hacer software útil sin venderle el alma a medio planeta."
+      ],
+      "orden": 9
+    },
+    {
+      "id": "mi-codigo",
+      "titulo": "Mi propio código, porque yo digo que programo y lo hago de verdad",
+      "descripcion": [
+        "Mis proyectos, herramientas y desarrollos en progreso. Para que veas que estoy trabajando para mí y sin pagarme nada XD."
+      ],
+      "orden": 10
+    }
+  ],
+  "aplicaciones": [
+    {
+      "id": "lazarillo",
+      "nombre": "Lazarillo",
+      "categoria": "camino",
+      "orden": 1,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "html": "GPS pensado para personas ciegas: describe entornos, anuncia intersecciones y comercios cercanos. Se puede usar caminando o en transporte público."
+        }
+      ],
+      "enlaces": [
+        {
+          "texto": "Visitar el sitio oficial de Lazarillo",
+          "url": "https://lazarillo.app/es/",
+          "externo": true,
+          "rel": [
+            "noopener",
+            "noreferrer"
+          ]
+        },
+        {
+          "texto": "Obtener Lazarillo en Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.lazarillo",
+          "externo": true,
+          "rel": [
+            "noopener",
+            "noreferrer"
+          ]
+        },
+        {
+          "texto": "Obtener Lazarillo en App Store",
+          "url": "https://apps.apple.com/us/app/lazarillo-accesible-gps/id1139331874",
+          "externo": true,
+          "rel": [
+            "noopener",
+            "noreferrer"
+          ]
+        }
+      ],
+      "activa": true
+    },
+    {
+      "id": "moovit",
+      "nombre": "Moovit",
+      "categoria": "camino",
+      "orden": 2,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "html": "App de transporte público global con mapas, rutas, horarios en tiempo real y planificación de viajes en cientos de ciudades."
+        }
+      ],
+      "enlaces": [
+        {
+          "texto": "Visitar el sitio oficial de Moovit",
+          "url": "https://moovitapp.com/",
+          "externo": true,
+          "rel": [
+            "noopener",
+            "noreferrer"
+          ]
+        },
+        {
+          "texto": "Obtener Moovit en Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.tranzmate",
+          "externo": true,
+          "rel": [
+            "noopener",
+            "noreferrer"
+          ]
+        },
+        {
+          "texto": "Obtener Moovit en App Store",
+          "url": "https://apps.apple.com/app/moovit-your-local-transit-app/id498477945",
+          "externo": true,
+          "rel": [
+            "noopener",
+            "noreferrer"
+          ]
+        }
+      ],
+      "activa": true
+    },
+    {
+      "id": "be-my-eyes",
+      "nombre": "Be My Eyes",
+      "categoria": "descripciones",
+      "orden": 3,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "html": "App para obtener descripciones mediante inteligencia artificial o voluntariado humano. Permite consultar imágenes, productos, documentos y otros elementos visuales desde dispositivos móviles y computadoras."
+        }
+      ],
+      "enlaces": [
+        {
+          "texto": "Visitar el sitio oficial de Be My Eyes",
+          "url": "https://www.bemyeyes.com/?lang=es",
+          "externo": true,
+          "rel": [
+            "noopener",
+            "noreferrer"
+          ]
+        },
+        {
+          "texto": "Obtener Be My Eyes en Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.bemyeyes.bemyeyes",
+          "externo": true,
+          "rel": [
+            "noopener",
+            "noreferrer"
+          ]
+        },
+        {
+          "texto": "Obtener Be My Eyes en App Store",
+          "url": "https://apps.apple.com/app/be-my-eyes/id905177575",
+          "externo": true,
+          "rel": [
+            "noopener",
+            "noreferrer"
+          ]
+        },
+        {
+          "texto": "Obtener Be My Eyes en Microsoft Store",
+          "url": "https://apps.microsoft.com/detail/9msw46ltdwgf",
+          "externo": true,
+          "rel": [
+            "noopener",
+            "noreferrer"
+          ]
+        }
+      ],
+      "activa": true
+    },
+    {
+      "id": "rayo-ai",
+      "nombre": "Rayo AI",
+      "categoria": "descripciones",
+      "orden": 4,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "html": "Similar a Be My Eyes y creada por un desarrollador ciego. Permite obtener descripciones mediante inteligencia artificial y conservar historiales e imágenes previamente analizadas. Para usar las funciones de IA necesitás configurar tu propia clave API de Gemini."
+        }
+      ],
+      "enlaces": [
+        {
+          "texto": "Obtener Rayo AI en Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.rayoai",
+          "externo": true,
+          "rel": [
+            "noopener",
+            "noreferrer"
+          ]
+        },
+        {
+          "texto": "Visitar el sitio del desarrollador",
+          "url": "https://rayoscompany.com/",
+          "externo": true,
+          "rel": [
+            "noopener",
+            "noreferrer"
+          ]
+        }
+      ],
+      "activa": true
+    },
+    {
+      "id": "seeing-ai",
+      "nombre": "Seeing AI",
+      "categoria": "descripciones",
+      "orden": 5,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "html": "Herramienta de Microsoft que utiliza inteligencia artificial para reconocer textos, productos, escenas, colores, rostros y otros elementos del entorno."
+        }
+      ],
+      "enlaces": [
+        {
+          "texto": "Visitar el sitio oficial de Seeing AI",
+          "url": "https://www.seeingai.com/",
+          "externo": true,
+          "rel": [
+            "noopener",
+            "noreferrer"
+          ]
+        },
+        {
+          "texto": "Obtener Seeing AI en Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.microsoft.seeingai",
+          "externo": true,
+          "rel": [
+            "noopener",
+            "noreferrer"
+          ]
+        },
+        {
+          "texto": "Obtener Seeing AI en App Store",
+          "url": "https://apps.apple.com/us/app/seeing-ai/id999062298",
+          "externo": true,
+          "rel": [
+            "noopener",
+            "noreferrer"
+          ]
+        }
+      ],
+      "activa": true
+    },
+    {
+      "id": "envision-ai",
+      "nombre": "Envision AI",
+      "categoria": "descripciones",
+      "orden": 6,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "html": "App de accesibilidad que utiliza inteligencia artificial para describir el entorno, leer textos y reconocer objetos, colores y escenas."
+        }
+      ],
+      "enlaces": [
+        {
+          "texto": "Visitar el sitio oficial de Envision AI",
+          "url": "https://www.letsenvision.com",
+          "externo": true,
+          "rel": [
+            "noopener",
+            "noreferrer"
+          ]
+        },
+        {
+          "texto": "Obtener Envision AI en Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.letsenvision.envisionai",
+          "externo": true,
+          "rel": [
+            "noopener",
+            "noreferrer"
+          ]
+        },
+        {
+          "texto": "Obtener Envision AI en App Store",
+          "url": "https://apps.apple.com/app/envision-ai/id1268632314",
+          "externo": true,
+          "rel": [
+            "noopener",
+            "noreferrer"
+          ]
+        }
+      ],
+      "activa": true
+    },
+    {
+      "id": "cashreader",
+      "nombre": "CashReader",
+      "categoria": "descripciones",
+      "orden": 7,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "html": "Reconocedor de billetes de múltiples países. Utiliza la cámara para identificar su denominación y puede comunicar el resultado mediante voz o vibración."
+        }
+      ],
+      "enlaces": [
+        {
+          "texto": "Visitar el sitio oficial de CashReader",
+          "url": "https://www.cashreader.app/",
+          "externo": true,
+          "rel": [
+            "noopener",
+            "noreferrer"
+          ]
+        },
+        {
+          "texto": "Obtener CashReader en Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.cashreader.cashreader",
+          "externo": true,
+          "rel": [
+            "noopener",
+            "noreferrer"
+          ]
+        },
+        {
+          "texto": "Obtener CashReader en App Store",
+          "url": "https://apps.apple.com/app/cash-reader-money-recognition/id1296609130",
+          "externo": true,
+          "rel": [
+            "noopener",
+            "noreferrer"
+          ]
+        }
+      ],
+      "activa": true
+    },
+    {
+      "id": "fifa-audio-description",
+      "nombre": "FIFA Audio Description",
+      "categoria": "descripciones",
+      "orden": 8,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "html": "Aplicación oficial de FIFA orientada a la accesibilidad deportiva. Permite acceder a audiodescripción en tiempo real de partidos y torneos seleccionados, incorporando información visual sobre el juego y el ambiente del estadio."
+        }
+      ],
+      "enlaces": [
+        {
+          "texto": "Obtener FIFA Audio Description en Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.fifa.adc.app",
+          "externo": true,
+          "rel": [
+            "noopener",
+            "noreferrer"
+          ]
+        },
+        {
+          "texto": "Obtener FIFA Audio Description en App Store",
+          "url": "https://apps.apple.com/us/app/fifa-audio-description/id6745691218",
+          "externo": true,
+          "rel": [
+            "noopener",
+            "noreferrer"
+          ]
+        }
+      ],
+      "activa": true
+    },
+    {
+      "id": "scribeme",
+      "nombre": "ScribeMe",
+      "categoria": "descripciones",
+      "orden": 9,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "html": "Asistente visual con inteligencia artificial orientado especialmente a personas ciegas y con baja visión. Permite generar audiodescripciones de videos, incluso desde YouTube y redes sociales, además de describir imágenes, leer documentos y utilizar la cámara para obtener asistencia visual."
+        }
+      ],
+      "enlaces": [
+        {
+          "texto": "Visitar el sitio oficial de ScribeMe",
+          "url": "https://scribeme-ai.com/es",
+          "externo": true,
+          "rel": [
+            "noopener",
+            "noreferrer"
+          ]
+        },
+        {
+          "texto": "Obtener ScribeMe en Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.hany.subcribe",
+          "externo": true,
+          "rel": [
+            "noopener",
+            "noreferrer"
+          ]
+        },
+        {
+          "texto": "Obtener ScribeMe en App Store",
+          "url": "https://apps.apple.com/ar/app/scribeme/id6739640292",
+          "externo": true,
+          "rel": [
+            "noopener",
+            "noreferrer"
+          ]
+        }
+      ],
+      "activa": true
+    },
+    {
+      "id": "piccybot",
+      "nombre": "PiccyBot",
+      "categoria": "descripciones",
+      "orden": 10,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "html": "Herramienta de inteligencia artificial pensada para personas ciegas y con baja visión que genera descripciones habladas de imágenes y videos. Permite utilizar la cámara, cargar contenido desde el dispositivo, compartir archivos desde otras aplicaciones y hacer preguntas sobre lo que aparece en una imagen o video."
+        },
+        {
+          "tipo": "parrafo",
+          "html": "La aplicación puede utilizarse gratuitamente y ofrece compras y funciones adicionales de pago. Para describir videos gratuitamente, ScribeMe sigue siendo una alternativa especialmente interesante cuando necesitás trabajar con contenido de mayor duración."
+        }
+      ],
+      "enlaces": [
+        {
+          "texto": "Visitar el sitio oficial de PiccyBot",
+          "url": "https://www.piccybot.com/",
+          "externo": true,
+          "rel": [
+            "noopener",
+            "noreferrer"
+          ]
+        },
+        {
+          "texto": "Obtener PiccyBot en Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.sparklingapps.piccybot",
+          "externo": true,
+          "rel": [
+            "noopener",
+            "noreferrer"
+          ]
+        },
+        {
+          "texto": "Obtener PiccyBot en App Store",
+          "url": "https://apps.apple.com/ar/app/piccybot/id6476859317",
+          "externo": true,
+          "rel": [
+            "noopener",
+            "noreferrer"
+          ]
+        }
+      ],
+      "activa": true
+    },
+    {
+      "id": "voice-aloud-reader",
+      "nombre": "@Voice Aloud Reader",
+      "categoria": "texto-voz",
+      "orden": 11,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "html": "Uno de mis lectores de libros preferidos para Android. Permite leer y editar textos utilizando distintos motores TTS y trabajar con múltiples formatos. También lo utilizo para generar parte de los audios del podcast."
+        }
+      ],
+      "enlaces": [
+        {
+          "texto": "Obtener @Voice Aloud Reader en Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.hyperionics.avar",
+          "externo": true,
+          "rel": [
+            "noopener",
+            "noreferrer"
+          ]
+        }
+      ],
+      "activa": true
+    },
+    {
+      "id": "voice-dream-reader",
+      "nombre": "Voice Dream Reader",
+      "categoria": "texto-voz",
+      "orden": 12,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "html": "Lector de documentos, libros y artículos pensado desde la accesibilidad. Permite organizar una biblioteca de lectura, conservar el punto donde dejaste cada contenido, elegir voces y ajustar velocidad, pronunciación y reproducción."
+        },
+        {
+          "tipo": "parrafo",
+          "html": "Actualmente está disponible para iPhone, iPad y Mac. Es una alternativa especialmente interesante para quienes quieren algo más parecido a una biblioteca de lectura que a un simple botón de «leer en voz alta»."
+        }
+      ],
+      "enlaces": [
+        {
+          "texto": "Visitar el sitio oficial de Voice Dream Reader",
+          "url": "https://www.voicedream.com/",
+          "externo": true,
+          "rel": [
+            "noopener",
+            "noreferrer"
+          ]
+        },
+        {
+          "texto": "Obtener Voice Dream Reader en App Store (iPhone y iPad)",
+          "url": "https://apps.apple.com/app/voice-dream-reader/id496177674",
+          "externo": true,
+          "rel": [
+            "noopener",
+            "noreferrer"
+          ]
+        },
+        {
+          "texto": "Obtener Voice Dream Reader para Mac",
+          "url": "https://apps.apple.com/us/app/voice-dream-reader/id972112040?mt=12",
+          "externo": true,
+          "rel": [
+            "noopener",
+            "noreferrer"
+          ]
+        }
+      ],
+      "activa": true
+    },
+    {
+      "id": "multitts",
+      "nombre": "MultiVoice (antes MultiTTS)",
+      "categoria": "texto-voz",
+      "orden": 13,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "html": "Motor de texto a voz para Android que permite utilizar distintas voces y recursos de síntesis. Antes se conocía como MultiTTS. Esta ficha enlaza la APK compartida por KathWare y el grupo de usuarios en español de MultiVoice."
+        },
+        {
+          "tipo": "parrafo",
+          "html": "Los canales antiguos de MultiTTS continúan enlazados como referencia histórica y para quienes todavía necesiten consultar sus recursos; no necesariamente distribuyen la misma versión que esta APK."
+        }
+      ],
+      "enlaces": [
+        {
+          "texto": "Descargar MultiVoice para Android (APK)",
+          "url": "https://www.dropbox.com/scl/fi/lxi4eglz2v9sjunkyt3jr/MultiVoice.apk?rlkey=7syquwcb83896vls165x35p3r&dl=1",
+          "externo": true,
+          "rel": [
+            "noopener",
+            "noreferrer"
+          ]
+        },
+        {
+          "texto": "Unirse al grupo de MultiVoice en español",
+          "url": "https://t.me/MultiVoiceTTS_ES",
+          "externo": true,
+          "rel": [
+            "noopener",
+            "noreferrer"
+          ]
+        },
+        {
+          "texto": "Ver el canal histórico de MultiTTS en inglés",
+          "url": "https://t.me/MultiTTS_channel",
+          "externo": true,
+          "rel": [
+            "noopener",
+            "noreferrer"
+          ]
+        },
+        {
+          "texto": "Consultar recursos históricos de MultiTTS",
+          "url": "https://t.me/MultiTTS_resource",
+          "externo": true,
+          "rel": [
+            "noopener",
+            "noreferrer"
+          ]
+        }
+      ],
+      "activa": true
+    },
+    {
+      "id": "pico-tts-pro",
+      "nombre": "Pico TTS Pro",
+      "categoria": "texto-voz",
+      "orden": 14,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "html": "Motor de texto a voz independiente para Android, basado en SVOX Pico/AOSP y desarrollado por Rodrigo Condori Flores (RME Systems), sin afiliación a Google ni SVOX. Según su desarrollador, funciona sin conexión, consume pocos recursos y ofrece baja latencia, volumen de hasta el 500 %, pronunciación de emojis, números, fechas y códigos OTP, diccionario editable y ajustes de voz, tono, volumen e idioma. Incluye español de España, inglés, francés, alemán e italiano; se presenta sin anuncios ni compras integradas."
+        },
+        {
+          "tipo": "parrafo",
+          "html": "Estoy probando su rendimiento real, estabilidad y accesibilidad con Ferda. Las características anunciadas por el desarrollador no equivalen todavía a resultados de mis pruebas."
+        }
+      ],
+      "enlaces": [
+        {
+          "texto": "Obtener Pico TTS Pro en Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.rme.picottspro",
+          "externo": true,
+          "rel": [
+            "noopener",
+            "noreferrer"
+          ]
+        }
+      ],
+      "activa": true
+    },
+    {
+      "id": "eloquence-android",
+      "nombre": "Eloquence para Android",
+      "categoria": "texto-voz",
+      "orden": 15,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "html": "El viejo y querido sintetizador Eloquence volvió a estar disponible para Android de la mano de Code Factory. No quisieron reconocerme la licencia que había comprado años atrás, pero bueno. Al menos volvió."
+        }
+      ],
+      "enlaces": [
+        {
+          "texto": "Obtener Eloquence para Android en Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.codefactoryglobal.eloquencetts",
+          "externo": true,
+          "rel": [
+            "noopener",
+            "noreferrer"
+          ]
+        }
+      ],
+      "activa": true
+    },
+    {
+      "id": "softbraille",
+      "nombre": "SoftBraille",
+      "categoria": "texto-voz",
+      "orden": 16,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "html": "Teclado braille para Android creado originalmente por Daniel Dalton y mantenido como proyecto abierto. Permite escribir braille directamente sobre la pantalla. Actualmente existen continuaciones y variantes modernas con mejoras para versiones recientes de Android, audio, gestos, tablas braille y compatibilidad con lectores de pantalla."
+        },
+        {
+          "tipo": "parrafo",
+          "html": "Una de esas continuaciones es la de catilina2, desarrollada por Sergio B. Italy, con ramas modernas y clásicas; también existen otros forks activos. No todos los APK ni todos los repositorios representan la misma variante. La APK que comparto aquí es la que estoy distribuyendo para las pruebas, y no debe confundirse automáticamente con el último lanzamiento de cualquiera de las ramas."
+        },
+        {
+          "tipo": "parrafo",
+          "html": "Para utilizar determinadas versiones puede ser necesario habilitar los ajustes restringidos de la aplicación y luego activar SoftBraille desde los servicios de accesibilidad de Android. Estoy probando su comportamiento con Ferda, no solamente con TalkBack. Si te interesa colaborar en su desarrollo o continuar alguna de las ramas del proyecto, también podés sumarte al grupo de Telegram enlazado."
+        }
+      ],
+      "enlaces": [
+        {
+          "texto": "Descargar SoftBraille Keyboard para Android (APK compartida en KathWare)",
+          "url": "https://www.dropbox.com/scl/fi/uxgjds868hm3e4c6tafyu/Soft-Braille-Keyboard.apk?rlkey=yqhojddsilxr6bwq2ltawj336&dl=1",
+          "externo": true,
+          "rel": [
+            "noopener",
+            "noreferrer"
+          ]
+        },
+        {
+          "texto": "Unirse al grupo SoftBraille Keyboard Revived en Telegram",
+          "url": "https://t.me/softbraillekeyboardrevived",
+          "externo": true,
+          "rel": [
+            "noopener",
+            "noreferrer"
+          ]
+        },
+        {
+          "texto": "Ver el repositorio original de Daniel Dalton",
+          "url": "https://github.com/danieldalton10/Soft-Braille-Keyboard",
+          "externo": true,
+          "rel": [
+            "noopener",
+            "noreferrer"
+          ]
+        },
+        {
+          "texto": "Ver la continuación intermedia de vortex1024",
+          "url": "https://github.com/vortex1024/soft-braille-keyboard",
+          "externo": true,
+          "rel": [
+            "noopener",
+            "noreferrer"
+          ]
+        },
+        {
+          "texto": "Ver el desarrollo moderno de catilina2 (Sergio B. Italy)",
+          "url": "https://github.com/catilina2/soft-braille-keyboard-new",
+          "externo": true,
+          "rel": [
+            "noopener",
+            "noreferrer"
+          ]
+        },
+        {
+          "texto": "Ver la rama clásica de catilina2",
+          "url": "https://github.com/catilina2/soft-braille-keyboard-new/tree/classic",
+          "externo": true,
+          "rel": [
+            "noopener",
+            "noreferrer"
+          ]
+        },
+        {
+          "texto": "Ver la continuación de Glowing-Radiant",
+          "url": "https://github.com/Glowing-Radiant/Soft-Braille-Keyboard",
+          "externo": true,
+          "rel": [
+            "noopener",
+            "noreferrer"
+          ]
+        },
+        {
+          "texto": "Leer nuestro artículo sobre SoftBraille",
+          "url": "/escribiendo-a-ciegas-en-android/",
+          "externo": false,
+          "rel": []
+        },
+        {
+          "texto": "Leer sobre la versión actualizada de SoftBraille Keyboard",
+          "url": "/version-actualizada-del-teclado-soft-braille-keyboard-para-android/",
+          "externo": false,
+          "rel": []
+        }
+      ],
+      "activa": true
+    },
+    {
+      "id": "ferda",
+      "nombre": "Ferda — Lector de pantalla alternativo para Android",
+      "categoria": "texto-voz",
+      "orden": 17,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "html": "Lector de pantalla alternativo para Android, personalizable y con opciones pensadas tanto para personas ciegas como para usuarios con baja visión. Entre sus funciones adicionales se encuentran la descripción de imágenes y la traducción en tiempo real."
+        }
+      ],
+      "enlaces": [
+        {
+          "texto": "Obtener Ferda en Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.ferda.md",
+          "externo": true,
+          "rel": [
+            "noopener",
+            "noreferrer"
+          ]
+        }
+      ],
+      "activa": true
+    },
+    {
+      "id": "rhvoice",
+      "nombre": "RHVoice — Sintetizador de voz libre y multiplataforma",
+      "categoria": "texto-voz",
+      "orden": 18,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "html": "RHVoice es un sintetizador de voz de código abierto compatible con Windows, Android, iOS y Linux. Está especialmente orientado a lectores de pantalla y otras tecnologías de asistencia, con voces ligeras y completamente gratuitas."
+        },
+        {
+          "tipo": "parrafo",
+          "html": "Al tratarse de un proyecto libre, cualquier persona puede colaborar en su desarrollo, crear nuevas voces o contribuir a mejorar los idiomas existentes."
+        }
+      ],
+      "enlaces": [
+        {
+          "texto": "Obtener RHVoice en Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.github.olga_yakovleva.rhvoice.android",
+          "externo": true,
+          "rel": [
+            "noopener",
+            "noreferrer"
+          ]
+        },
+        {
+          "texto": "Obtener RHVoice en F-Droid",
+          "url": "https://f-droid.org/packages/com.github.olga_yakovleva.rhvoice.android/",
+          "externo": true,
+          "rel": [
+            "noopener",
+            "noreferrer"
+          ]
+        },
+        {
+          "texto": "Obtener RHVoice en App Store",
+          "url": "https://apps.apple.com/us/app/rhvoice/id6444378148",
+          "externo": true,
+          "rel": [
+            "noopener",
+            "noreferrer"
+          ]
+        },
+        {
+          "texto": "Descargar RHVoice Plus para Windows",
+          "url": "https://rhvoice.com/downloads/RHVoice-Plus-setup.exe",
+          "externo": true,
+          "rel": [
+            "noopener",
+            "noreferrer"
+          ]
+        },
+        {
+          "texto": "Ver el código fuente de RHVoice en GitHub",
+          "url": "https://github.com/RHVoice",
+          "externo": true,
+          "rel": [
+            "noopener",
+            "noreferrer"
+          ]
+        },
+        {
+          "texto": "Visitar el sitio oficial de RHVoice",
+          "url": "https://rhvoice.com/",
+          "externo": true,
+          "rel": [
+            "noopener",
+            "noreferrer"
+          ]
+        },
+        {
+          "texto": "Visitar el proyecto colaborativo de RHVoice",
+          "url": "https://rhvoice.org",
+          "externo": true,
+          "rel": [
+            "noopener",
+            "noreferrer"
+          ]
+        }
+      ],
+      "activa": true
+    },
+    {
+      "id": "macrodroid",
+      "nombre": "MacroDroid",
+      "categoria": "automatizaciones",
+      "orden": 19,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "html": "Automatizador para Android que permite crear macros combinando disparadores, acciones y restricciones. Es especialmente útil para accesibilidad, configuraciones automáticas y tareas repetitivas."
+        }
+      ],
+      "enlaces": [
+        {
+          "texto": "Visitar el sitio oficial de MacroDroid",
+          "url": "https://www.macrodroid.com/",
+          "externo": true,
+          "rel": [
+            "noopener",
+            "noreferrer"
+          ]
+        },
+        {
+          "texto": "Obtener MacroDroid en Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.arlosoft.macrodroid",
+          "externo": true,
+          "rel": [
+            "noopener",
+            "noreferrer"
+          ]
+        }
+      ],
+      "activa": true
+    },
+    {
+      "id": "ifttt",
+      "nombre": "IFTTT",
+      "categoria": "automatizaciones",
+      "orden": 20,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "html": "Servicio de automatización que conecta aplicaciones y plataformas mediante reglas del tipo «si ocurre esto, entonces hacé aquello». Permite automatizar publicaciones, archivos, correos, dispositivos y una enorme cantidad de servicios web."
+        }
+      ],
+      "enlaces": [
+        {
+          "texto": "Visitar el sitio oficial de IFTTT",
+          "url": "https://ifttt.com/",
+          "externo": true,
+          "rel": [
+            "noopener",
+            "noreferrer"
+          ]
+        },
+        {
+          "texto": "Obtener IFTTT en Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.ifttt.ifttt",
+          "externo": true,
+          "rel": [
+            "noopener",
+            "noreferrer"
+          ]
+        },
+        {
+          "texto": "Obtener IFTTT en App Store",
+          "url": "https://apps.apple.com/app/ifttt/id660944635",
+          "externo": true,
+          "rel": [
+            "noopener",
+            "noreferrer"
+          ]
+        }
+      ],
+      "activa": true
+    },
+    {
+      "id": "http-request-shortcuts",
+      "nombre": "HTTP Request Shortcuts",
+      "categoria": "automatizaciones",
+      "orden": 21,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "html": "Herramienta libre para Android que permite crear accesos directos capaces de ejecutar solicitudes HTTP, utilizar parámetros, enviar archivos y encadenar acciones con JavaScript. Es accesible con TalkBack. ¡Pedido por mí!"
+        }
+      ],
+      "enlaces": [
+        {
+          "texto": "Obtener HTTP Request Shortcuts en Google Play",
+          "url": "https://play.google.com/store/apps/details?id=ch.rmy.android.http_shortcuts",
+          "externo": true,
+          "rel": [
+            "noopener",
+            "noreferrer"
+          ]
+        },
+        {
+          "texto": "Obtener HTTP Request Shortcuts en F-Droid",
+          "url": "https://f-droid.org/packages/ch.rmy.android.http_shortcuts/",
+          "externo": true,
+          "rel": [
+            "noopener",
+            "noreferrer"
+          ]
+        },
+        {
+          "texto": "Ver el código fuente de HTTP Request Shortcuts en GitHub",
+          "url": "https://github.com/Waboodoo/HTTP-Shortcuts",
+          "externo": true,
+          "rel": [
+            "noopener",
+            "noreferrer"
+          ]
+        }
+      ],
+      "activa": true
+    },
+    {
+      "id": "shizuku",
+      "nombre": "Shizuku",
+      "categoria": "automatizaciones",
+      "orden": 22,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "html": "Permite que otras aplicaciones utilicen determinadas APIs y permisos del sistema mediante ADB o root. Resulta muy útil para automatización avanzada y herramientas que necesitan realizar acciones que Android normalmente restringe."
+        }
+      ],
+      "enlaces": [
+        {
+          "texto": "Visitar el sitio oficial de Shizuku",
+          "url": "https://shizuku.rikka.app/",
+          "externo": true,
+          "rel": [
+            "noopener",
+            "noreferrer"
+          ]
+        },
+        {
+          "texto": "Obtener Shizuku en Google Play",
+          "url": "https://play.google.com/store/apps/details?id=moe.shizuku.privileged.api",
+          "externo": true,
+          "rel": [
+            "noopener",
+            "noreferrer"
+          ]
+        },
+        {
+          "texto": "Ver el código fuente de Shizuku en GitHub",
+          "url": "https://github.com/RikkaApps/Shizuku",
+          "externo": true,
+          "rel": [
+            "noopener",
+            "noreferrer"
+          ]
+        }
+      ],
+      "activa": true
+    },
+    {
+      "id": "shortcut-maker",
+      "nombre": "Shortcut Maker",
+      "categoria": "automatizaciones",
+      "orden": 23,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "html": "Crea accesos directos personalizados a actividades, aplicaciones, archivos y funciones del sistema Android. Puede simplificar muchísimo el acceso a acciones específicas desde la pantalla de inicio."
+        }
+      ],
+      "enlaces": [
+        {
+          "texto": "Obtener Shortcut Maker en Google Play",
+          "url": "https://play.google.com/store/apps/details?id=rk.android.app.shortcutmaker",
+          "externo": true,
+          "rel": [
+            "noopener",
+            "noreferrer"
+          ]
+        }
+      ],
+      "activa": true
+    },
+    {
+      "id": "notepad-plus-plus",
+      "nombre": "Notepad++",
+      "categoria": "automatizaciones",
+      "orden": 24,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "html": "Editor de texto y código libre para Windows, liviano y con soporte para una enorme cantidad de lenguajes. Durante años fue una de mis herramientas principales para programar con JAWS y NVDA."
+        }
+      ],
+      "enlaces": [
+        {
+          "texto": "Visitar el sitio oficial de Notepad++",
+          "url": "https://notepad-plus-plus.org/",
+          "externo": true,
+          "rel": [
+            "noopener",
+            "noreferrer"
+          ]
+        },
+        {
+          "texto": "Descargar Notepad++ para Windows",
+          "url": "https://notepad-plus-plus.org/downloads/",
+          "externo": true,
+          "rel": [
+            "noopener",
+            "noreferrer"
+          ]
+        },
+        {
+          "texto": "Leer nuestro artículo Programar a ciegas",
+          "url": "/programar-a-ciegas/",
+          "externo": false,
+          "rel": []
+        }
+      ],
+      "activa": true
+    },
+    {
+      "id": "visual-studio-code",
+      "nombre": "Visual Studio Code",
+      "categoria": "automatizaciones",
+      "orden": 25,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "html": "Editor de código gratuito y multiplataforma para Windows, macOS, Linux y la web. Incluye soporte para lectores de pantalla, extensiones, terminal integrada, control de versiones y herramientas para trabajar con numerosos lenguajes y entornos."
+        }
+      ],
+      "enlaces": [
+        {
+          "texto": "Visitar el sitio oficial de Visual Studio Code",
+          "url": "https://code.visualstudio.com/",
+          "externo": true,
+          "rel": [
+            "noopener",
+            "noreferrer"
+          ]
+        },
+        {
+          "texto": "Usar Visual Studio Code en la web",
+          "url": "https://vscode.dev/",
+          "externo": true,
+          "rel": [
+            "noopener",
+            "noreferrer"
+          ]
+        },
+        {
+          "texto": "Leer nuestro artículo Programar a ciegas",
+          "url": "/programar-a-ciegas/",
+          "externo": false,
+          "rel": []
+        }
+      ],
+      "activa": true
+    },
+    {
+      "id": "wave",
+      "nombre": "WAVE de WebAIM",
+      "categoria": "automatizaciones",
+      "orden": 26,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "html": "Herramienta para evaluar la accesibilidad de páginas web y detectar automáticamente numerosos errores y posibles problemas relacionados con WCAG. Puede utilizarse directamente desde la web o mediante extensiones para Chrome, Firefox y Edge."
+        },
+        {
+          "tipo": "parrafo",
+          "html": "Como cualquier herramienta automática, WAVE no puede decidir por sí sola si un sitio es accesible. Sirve para encontrar problemas y facilitar una evaluación humana posterior, no para reemplazar las pruebas con teclado, lectores de pantalla y personas reales."
+        }
+      ],
+      "enlaces": [
+        {
+          "texto": "Evaluar una página con WAVE",
+          "url": "https://wave.webaim.org/",
+          "externo": true,
+          "rel": [
+            "noopener",
+            "noreferrer"
+          ]
+        },
+        {
+          "texto": "Obtener las extensiones de WAVE para navegadores",
+          "url": "https://wave.webaim.org/extension/",
+          "externo": true,
+          "rel": [
+            "noopener",
+            "noreferrer"
+          ]
+        }
+      ],
+      "activa": true
+    },
+    {
+      "id": "markor",
+      "nombre": "Markor",
+      "categoria": "creatividad",
+      "orden": 27,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "html": "Editor de texto y Markdown libre, accesible y liviano para Android. Funciona sin conexión, organiza archivos y notas y tiene buen soporte con TalkBack."
+        }
+      ],
+      "enlaces": [
+        {
+          "texto": "Visitar el sitio oficial de Markor",
+          "url": "https://gsantner.net/projects/markor.html",
+          "externo": true,
+          "rel": [
+            "noopener",
+            "noreferrer"
+          ]
+        },
+        {
+          "texto": "Obtener Markor en F-Droid",
+          "url": "https://f-droid.org/packages/net.gsantner.markor/",
+          "externo": true,
+          "rel": [
+            "noopener",
+            "noreferrer"
+          ]
+        },
+        {
+          "texto": "Obtener las versiones de Markor en GitHub",
+          "url": "https://github.com/gsantner/markor/releases",
+          "externo": true,
+          "rel": [
+            "noopener",
+            "noreferrer"
+          ]
+        },
+        {
+          "texto": "Ver el código fuente de Markor en GitHub",
+          "url": "https://github.com/gsantner/markor",
+          "externo": true,
+          "rel": [
+            "noopener",
+            "noreferrer"
+          ]
+        }
+      ],
+      "activa": true
+    },
+    {
+      "id": "collabora-office",
+      "nombre": "Collabora Office",
+      "categoria": "creatividad",
+      "orden": 28,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "html": "Suite ofimática libre basada en LibreOffice para trabajar con documentos, hojas de cálculo y presentaciones desde dispositivos móviles. Es compatible con formatos de Microsoft Office y OpenDocument."
+        }
+      ],
+      "enlaces": [
+        {
+          "texto": "Visitar el sitio oficial de Collabora Office",
+          "url": "https://www.collaboraoffice.com/",
+          "externo": true,
+          "rel": [
+            "noopener",
+            "noreferrer"
+          ]
+        },
+        {
+          "texto": "Obtener Collabora Office en Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.collabora.libreoffice",
+          "externo": true,
+          "rel": [
+            "noopener",
+            "noreferrer"
+          ]
+        },
+        {
+          "texto": "Obtener Collabora Office en F-Droid",
+          "url": "https://f-droid.org/packages/com.collabora.libreoffice/",
+          "externo": true,
+          "rel": [
+            "noopener",
+            "noreferrer"
+          ]
+        },
+        {
+          "texto": "Obtener Collabora Office en App Store",
+          "url": "https://apps.apple.com/us/app/collabora-office/id1440482071",
+          "externo": true,
+          "rel": [
+            "noopener",
+            "noreferrer"
+          ]
+        }
+      ],
+      "activa": true
+    },
+    {
+      "id": "stackedit",
+      "nombre": "StackEdit",
+      "categoria": "creatividad",
+      "orden": 29,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "html": "Editor Markdown basado en web con sincronización y herramientas para escribir directamente desde el navegador."
+        }
+      ],
+      "enlaces": [
+        {
+          "texto": "Usar StackEdit en la web",
+          "url": "https://stackedit.io/",
+          "externo": true,
+          "rel": [
+            "noopener",
+            "noreferrer"
+          ]
+        }
+      ],
+      "activa": true
+    },
+    {
+      "id": "google-keep",
+      "nombre": "Google Keep",
+      "categoria": "creatividad",
+      "orden": 30,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "html": "Una de esas herramientas de Google que están ahí hace años y mucha gente todavía no conoce. Permite crear notas, listas, recordatorios, grabaciones de voz y notas con imágenes, organizarlas y sincronizarlas entre el celular y la web."
+        },
+        {
+          "tipo": "parrafo",
+          "html": "La recomiendo especialmente para anotar algo rápido antes de que la cabeza decida olvidarlo cinco segundos después. También permite compartir notas y listas con otras personas."
+        }
+      ],
+      "enlaces": [
+        {
+          "texto": "Usar Google Keep en la web",
+          "url": "https://keep.google.com/",
+          "externo": true,
+          "rel": [
+            "noopener",
+            "noreferrer"
+          ]
+        },
+        {
+          "texto": "Obtener Google Keep en Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.google.android.keep",
+          "externo": true,
+          "rel": [
+            "noopener",
+            "noreferrer"
+          ]
+        },
+        {
+          "texto": "Obtener Google Keep en App Store",
+          "url": "https://apps.apple.com/ar/app/google-keep-notas-y-listas/id1029207872",
+          "externo": true,
+          "rel": [
+            "noopener",
+            "noreferrer"
+          ]
+        },
+        {
+          "texto": "Leer nuestro artículo sobre Google Keep",
+          "url": "/tdah-ceguera-y-tecnologia-segunda-parte/",
+          "externo": false,
+          "rel": []
+        }
+      ],
+      "activa": true
+    },
+    {
+      "id": "editor-de-audio",
+      "nombre": "Editor de Audio",
+      "categoria": "creatividad",
+      "orden": 31,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "html": "Un editor de audio que cumple: necesitaba unir varios audios en un único archivo final y esta app lo hace. También permite realizar otras tareas de edición y conversión."
+        }
+      ],
+      "enlaces": [
+        {
+          "texto": "Obtener Editor de Audio en Google Play",
+          "url": "https://play.google.com/store/apps/details?id=audioeditor.musiceditor.soundeditor.songeditor",
+          "externo": true,
+          "rel": [
+            "noopener",
+            "noreferrer"
+          ]
+        }
+      ],
+      "activa": true
+    },
+    {
+      "id": "grabadora-de-voz-facil",
+      "nombre": "Grabadora de Voz Fácil",
+      "categoria": "creatividad",
+      "orden": 32,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "html": "Grabadora sencilla e intuitiva para registrar voz, clases, reuniones o cualquier audio cotidiano. Permite trabajar con distintos formatos y ofrece herramientas adicionales de edición y procesamiento."
+        }
+      ],
+      "enlaces": [
+        {
+          "texto": "Obtener Grabadora de Voz Fácil Pro en Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.digipom.easyvoicerecorder.pro",
+          "externo": true,
+          "rel": [
+            "noopener",
+            "noreferrer"
+          ]
+        },
+        {
+          "texto": "Obtener Grabadora de Voz Fácil en App Store",
+          "url": "https://apps.apple.com/us/app/easy-voice-recorder/id1222784166",
+          "externo": true,
+          "rel": [
+            "noopener",
+            "noreferrer"
+          ]
+        }
+      ],
+      "activa": true
+    },
+    {
+      "id": "pixabay",
+      "nombre": "Pixabay",
+      "categoria": "creatividad",
+      "orden": 33,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "html": "Banco de imágenes, ilustraciones, videos, música y efectos de sonido con recursos gratuitos para proyectos personales o profesionales, sujetos a la licencia y condiciones de la plataforma."
+        }
+      ],
+      "enlaces": [
+        {
+          "texto": "Visitar el sitio oficial de Pixabay",
+          "url": "https://pixabay.com/es/",
+          "externo": true,
+          "rel": [
+            "noopener",
+            "noreferrer"
+          ]
+        },
+        {
+          "texto": "Obtener Pixabay en Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.pixabay.pixabayapp",
+          "externo": true,
+          "rel": [
+            "noopener",
+            "noreferrer"
+          ]
+        }
+      ],
+      "activa": true
+    },
+    {
+      "id": "diarium",
+      "nombre": "Diarium",
+      "categoria": "creatividad",
+      "orden": 34,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "html": "Diario privado, accesible y multiplataforma para guardar textos, fotos, audios, ubicaciones y otros recuerdos. Puede integrarse con datos como calendario, clima y actividad, sin convertir la experiencia en una explosión de estímulos. Gracias, amiga. ¡Te quiero!"
+        },
+        {
+          "tipo": "parrafo",
+          "html": "Está disponible para Android, iPhone, iPad, macOS y Windows. Diarium Pro se ofrece como compra única por plataforma en lugar de una suscripción recurrente."
+        }
+      ],
+      "enlaces": [
+        {
+          "texto": "Visitar el sitio oficial de Diarium",
+          "url": "https://diariumapp.com/es",
+          "externo": true,
+          "rel": [
+            "noopener",
+            "noreferrer"
+          ]
+        },
+        {
+          "texto": "Obtener Diarium en Google Play",
+          "url": "https://play.google.com/store/apps/details?id=partl.Diarium",
+          "externo": true,
+          "rel": [
+            "noopener",
+            "noreferrer"
+          ]
+        },
+        {
+          "texto": "Obtener Diarium en App Store",
+          "url": "https://apps.apple.com/ar/app/diarium-diario-privado/id1436044299",
+          "externo": true,
+          "rel": [
+            "noopener",
+            "noreferrer"
+          ]
+        },
+        {
+          "texto": "Obtener Diarium para Mac en App Store",
+          "url": "https://apps.apple.com/es/app/diarium-diario-personal/id1502834782?mt=12",
+          "externo": true,
+          "rel": [
+            "noopener",
+            "noreferrer"
+          ]
+        },
+        {
+          "texto": "Obtener Diarium para Windows",
+          "url": "https://store.timopartl.com/l/diarium",
+          "externo": true,
+          "rel": [
+            "noopener",
+            "noreferrer"
+          ]
+        }
+      ],
+      "activa": true
+    },
+    {
+      "id": "pluto-tv",
+      "nombre": "Pluto TV",
+      "categoria": "multimedia",
+      "orden": 35,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "html": "Servicio gratuito de streaming con canales de televisión en vivo y contenido bajo demanda. Permite ver películas, series, noticias, deportes y canales temáticos sin necesidad de una suscripción paga."
+        }
+      ],
+      "enlaces": [
+        {
+          "texto": "Visitar el sitio oficial de Pluto TV",
+          "url": "https://pluto.tv/",
+          "externo": true,
+          "rel": [
+            "noopener",
+            "noreferrer"
+          ]
+        },
+        {
+          "texto": "Obtener Pluto TV en Google Play",
+          "url": "https://play.google.com/store/apps/details?id=tv.pluto.android",
+          "externo": true,
+          "rel": [
+            "noopener",
+            "noreferrer"
+          ]
+        },
+        {
+          "texto": "Obtener Pluto TV en App Store",
+          "url": "https://apps.apple.com/ar/app/pluto-tv-pel%C3%ADculas-y-series/id751712884",
+          "externo": true,
+          "rel": [
+            "noopener",
+            "noreferrer"
+          ]
+        },
+        {
+          "texto": "Leer nuestro artículo sobre televisión y contenido On Demand por internet",
+          "url": "/ver-television-y-contenido-on-demand-por-internet/",
+          "externo": false,
+          "rel": []
+        }
+      ],
+      "activa": true
+    },
+    {
+      "id": "vix",
+      "nombre": "ViX",
+      "categoria": "multimedia",
+      "orden": 36,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "html": "Plataforma de streaming en español con novelas, películas, series, canales en vivo, noticias y deportes. Parte de su catálogo puede verse gratuitamente con publicidad y también ofrece contenidos mediante ViX Premium."
+        }
+      ],
+      "enlaces": [
+        {
+          "texto": "Usar ViX en la web",
+          "url": "https://vix.com/",
+          "externo": true,
+          "rel": [
+            "noopener",
+            "noreferrer"
+          ]
+        },
+        {
+          "texto": "Obtener ViX en Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.univision.prendetv",
+          "externo": true,
+          "rel": [
+            "noopener",
+            "noreferrer"
+          ]
+        },
+        {
+          "texto": "Obtener ViX en App Store",
+          "url": "https://apps.apple.com/ar/app/vix-tv-deportes-y-noticias/id1531467766",
+          "externo": true,
+          "rel": [
+            "noopener",
+            "noreferrer"
+          ]
+        }
+      ],
+      "activa": true
+    },
+    {
+      "id": "cine-ar-play",
+      "nombre": "CINE.AR PLAY",
+      "categoria": "multimedia",
+      "orden": 37,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "html": "Plataforma pública argentina de video bajo demanda con películas, series, documentales y cortometrajes nacionales. Gran parte de su catálogo puede verse gratuitamente y de manera legal después de registrarse."
+        }
+      ],
+      "enlaces": [
+        {
+          "texto": "Usar CINE.AR PLAY en la web",
+          "url": "https://play.cine.ar/",
+          "externo": true,
+          "rel": [
+            "noopener",
+            "noreferrer"
+          ]
+        },
+        {
+          "texto": "Visitar el portal oficial de CINE.AR",
+          "url": "https://www.cine.ar/index.php",
+          "externo": true,
+          "rel": [
+            "noopener",
+            "noreferrer"
+          ]
+        },
+        {
+          "texto": "Obtener CINE.AR PLAY en Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.arsat.odeon.mobile",
+          "externo": true,
+          "rel": [
+            "noopener",
+            "noreferrer"
+          ]
+        },
+        {
+          "texto": "Obtener CINE.AR PLAY en App Store",
+          "url": "https://apps.apple.com/ar/app/cine-ar-play/id1236249929",
+          "externo": true,
+          "rel": [
+            "noopener",
+            "noreferrer"
+          ]
+        },
+        {
+          "texto": "Leer nuestro artículo sobre televisión y contenido On Demand por internet",
+          "url": "/ver-television-y-contenido-on-demand-por-internet/",
+          "externo": false,
+          "rel": []
+        }
+      ],
+      "activa": true
+    },
+    {
+      "id": "audiocinemateca",
+      "nombre": "Audiocinemateca",
+      "categoria": "multimedia",
+      "orden": 38,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "html": "Catálogo gratuito en español de películas, series, documentales y cortometrajes con audiodescripción. El contenido se ofrece en formato sólo audio y requiere una cuenta gratuita para acceder a las reproducciones."
+        },
+        {
+          "tipo": "parrafo",
+          "html": "Si utilizás NVDA en Windows, también existe un complemento que permite consultar el catálogo, reproducir y descargar contenidos directamente desde una interfaz integrada en el lector de pantalla. La web también puede utilizarse en navegadores móviles con soporte HTML5. Por ahora no pude confirmar una ficha oficial de Audiocinemateca para Android en Google Play; no hay que confundirla con AudescMobile, que es otro proyecto."
+        }
+      ],
+      "enlaces": [
+        {
+          "texto": "Visitar Audiocinemateca",
+          "url": "https://audiocinemateca.com/",
+          "externo": true,
+          "rel": [
+            "noopener",
+            "noreferrer"
+          ]
+        },
+        {
+          "texto": "Obtener Audiocinemateca para NVDA",
+          "url": "https://github.com/nvda-es/audiocinemateca-para-nvda",
+          "externo": true,
+          "rel": [
+            "noopener",
+            "noreferrer"
+          ]
+        }
+      ],
+      "activa": true
+    },
+    {
+      "id": "vlc-media-player",
+      "nombre": "VLC Media Player",
+      "categoria": "multimedia",
+      "orden": 39,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "html": "Reproductor multimedia libre, gratuito y multiplataforma capaz de reproducir una enorme cantidad de formatos de audio y video, discos y transmisiones de red. Es de esas herramientas que instalás una vez y terminan resolviendo cosas durante años."
+        }
+      ],
+      "enlaces": [
+        {
+          "texto": "Visitar el sitio oficial de VLC Media Player",
+          "url": "https://www.videolan.org/vlc/",
+          "externo": true,
+          "rel": [
+            "noopener",
+            "noreferrer"
+          ]
+        },
+        {
+          "texto": "Obtener VLC Media Player en Google Play",
+          "url": "https://play.google.com/store/apps/details?id=org.videolan.vlc",
+          "externo": true,
+          "rel": [
+            "noopener",
+            "noreferrer"
+          ]
+        },
+        {
+          "texto": "Obtener VLC Media Player en App Store",
+          "url": "https://apps.apple.com/app/vlc-media-player/id650377962",
+          "externo": true,
+          "rel": [
+            "noopener",
+            "noreferrer"
+          ]
+        },
+        {
+          "texto": "Leer nuestro artículo sobre televisión y contenido On Demand por internet",
+          "url": "/ver-television-y-contenido-on-demand-por-internet/",
+          "externo": false,
+          "rel": []
+        }
+      ],
+      "activa": true
+    },
+    {
+      "id": "desgrabador-de-chequeado",
+      "nombre": "Desgrabador de Chequeado",
+      "categoria": "IA",
+      "orden": 40,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "html": "Un transcriptor de voz a texto excelente. Permite subir audios y videos propios y también desgrabar videos de YouTube, por lo que puede ser muy útil para periodismo, educación, entrevistas y clases."
+        }
+      ],
+      "enlaces": [
+        {
+          "texto": "Usar el Desgrabador de Chequeado",
+          "url": "https://chequeado.com/desgrabador/",
+          "externo": true,
+          "rel": [
+            "noopener",
+            "noreferrer"
+          ]
+        }
+      ],
+      "activa": true
+    },
+    {
+      "id": "suno",
+      "nombre": "Suno",
+      "categoria": "IA",
+      "orden": 41,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "html": "Un estudio musical de bolsillo basado en inteligencia artificial. La versión gratuita permite crear canciones con créditos diarios y la plataforma también ofrece planes pagos con otras condiciones de uso y explotación comercial."
+        }
+      ],
+      "enlaces": [
+        {
+          "texto": "Usar Suno en la web",
+          "url": "https://suno.com/",
+          "externo": true,
+          "rel": [
+            "noopener",
+            "noreferrer"
+          ]
+        },
+        {
+          "texto": "Obtener Suno en Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.suno.android",
+          "externo": true,
+          "rel": [
+            "noopener",
+            "noreferrer"
+          ]
+        },
+        {
+          "texto": "Obtener Suno en App Store",
+          "url": "https://apps.apple.com/ar/app/suno-crear-m%C3%BAsica-y-canciones/id6480136315",
+          "externo": true,
+          "rel": [
+            "noopener",
+            "noreferrer"
+          ]
+        }
+      ],
+      "activa": true
+    },
+    {
+      "id": "chatgpt",
+      "nombre": "ChatGPT",
+      "categoria": "IA",
+      "orden": 42,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "html": "Asistente de inteligencia artificial para conversar, escribir, estudiar, programar, analizar documentos y trabajar con contenido. También cuenta con un traductor que permite adaptar las traducciones según el contexto y el estilo."
+        }
+      ],
+      "enlaces": [
+        {
+          "texto": "Usar ChatGPT en la web",
+          "url": "https://chatgpt.com/",
+          "externo": true,
+          "rel": [
+            "noopener",
+            "noreferrer"
+          ]
+        },
+        {
+          "texto": "Usar ChatGPT Traductor",
+          "url": "https://chatgpt.com/es-419/translate/",
+          "externo": true,
+          "rel": [
+            "noopener",
+            "noreferrer"
+          ]
+        },
+        {
+          "texto": "Obtener ChatGPT en Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.openai.chatgpt",
+          "externo": true,
+          "rel": [
+            "noopener",
+            "noreferrer"
+          ]
+        },
+        {
+          "texto": "Obtener ChatGPT en App Store",
+          "url": "https://apps.apple.com/app/chatgpt/id6448311069",
+          "externo": true,
+          "rel": [
+            "noopener",
+            "noreferrer"
+          ]
+        }
+      ],
+      "activa": true
+    },
+    {
+      "id": "zapia",
+      "nombre": "Zapia",
+      "categoria": "IA",
+      "orden": 43,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "html": "Asistente personal basado en inteligencia artificial que combina conversación, productividad y accesibilidad. Puede transcribir y traducir audios, crear recordatorios y tareas, consultar información, organizar gastos y mantener contexto entre conversaciones."
+        },
+        {
+          "tipo": "parrafo",
+          "html": "También puede integrarse con servicios como WhatsApp, Google Calendar, Gmail y Google Drive para ayudar a gestionar mensajes, correos, documentos y eventos desde una interfaz conversacional."
+        }
+      ],
+      "enlaces": [
+        {
+          "texto": "Visitar el sitio oficial de Zapia",
+          "url": "https://zapia.com/?lang=es-ar",
+          "externo": true,
+          "rel": [
+            "noopener",
+            "noreferrer"
+          ]
+        },
+        {
+          "texto": "Obtener Zapia en Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.brainlogic.zapia",
+          "externo": true,
+          "rel": [
+            "noopener",
+            "noreferrer"
+          ]
+        },
+        {
+          "texto": "Obtener Zapia en App Store",
+          "url": "https://apps.apple.com/uy/app/zapia-ai-personal-assistant/id6470821480",
+          "externo": true,
+          "rel": [
+            "noopener",
+            "noreferrer"
+          ]
+        },
+        {
+          "texto": "Usar Zapia en la web",
+          "url": "https://app.zapia.com/",
+          "externo": true,
+          "rel": [
+            "noopener",
+            "noreferrer"
+          ]
+        }
+      ],
+      "activa": true
+    },
+    {
+      "id": "toki",
+      "nombre": "Toki",
+      "categoria": "IA",
+      "orden": 44,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "html": "Gestor de calendario que permite crear eventos mediante texto o audio, sincronizarlos con otros calendarios y añadir notas y recordatorios."
+        }
+      ],
+      "enlaces": [
+        {
+          "texto": "Visitar el sitio oficial de Toki",
+          "url": "https://toki.com/es/get",
+          "externo": true,
+          "rel": [
+            "noopener",
+            "noreferrer"
+          ]
+        },
+        {
+          "texto": "Usar Toki en la web",
+          "url": "https://app.toki.com/",
+          "externo": true,
+          "rel": [
+            "noopener",
+            "noreferrer"
+          ]
+        },
+        {
+          "texto": "Obtener Toki en Google Play",
+          "url": "https://play.google.com/store/apps/details?id=ai.orionarm.toki",
+          "externo": true,
+          "rel": [
+            "noopener",
+            "noreferrer"
+          ]
+        },
+        {
+          "texto": "Obtener Toki en App Store",
+          "url": "https://apps.apple.com/ar/app/toki-tu-calendario-con-ia/id6557056348",
+          "externo": true,
+          "rel": [
+            "noopener",
+            "noreferrer"
+          ]
+        }
+      ],
+      "activa": true
+    },
+    {
+      "id": "blackie-fm",
+      "nombre": "Blackie FM",
+      "categoria": "inclasificables",
+      "orden": 45,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "html": "La única radio de jazz de Buenos Aires y, sin duda, la mejor del mundo. Jazz las 24 horas, sin publicidad ni locución invasiva, ideal para relajarse, concentrarse o simplemente disfrutar de uno de los géneros más diversos de música instrumental."
+        }
+      ],
+      "enlaces": [
+        {
+          "texto": "Visitar el sitio oficial de Blackie FM 89.1",
+          "url": "https://blackiefm.com.ar/",
+          "externo": true,
+          "rel": [
+            "noopener",
+            "noreferrer"
+          ]
+        },
+        {
+          "texto": "Obtener Blackie FM en Google Play",
+          "url": "https://play.google.com/store/apps/details?id=ar.com.radioblackie891.app",
+          "externo": true,
+          "rel": [
+            "noopener",
+            "noreferrer"
+          ]
+        },
+        {
+          "texto": "Obtener Blackie FM en App Store",
+          "url": "https://apps.apple.com/ar/app/blackie-fm-89-1/id1557990796",
+          "externo": true,
+          "rel": [
+            "noopener",
+            "noreferrer"
+          ]
+        }
+      ],
+      "activa": true
+    },
+    {
+      "id": "global66",
+      "nombre": "Global66",
+      "categoria": "inclasificables",
+      "orden": 46,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "html": "App de finanzas para transferencias internacionales y cuentas multimoneda. Puede resultar útil para recibir, enviar y administrar dinero en distintas monedas desde una misma plataforma."
+        }
+      ],
+      "enlaces": [
+        {
+          "texto": "Obtener Global66 en Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.global66.cards",
+          "externo": true,
+          "rel": [
+            "noopener",
+            "noreferrer"
+          ]
+        },
+        {
+          "texto": "Obtener Global66 en App Store",
+          "url": "https://apps.apple.com/cl/app/global66-paga-env%C3%ADa-y-m%C3%A1s/id1494957339",
+          "externo": true,
+          "rel": [
+            "noopener",
+            "noreferrer"
+          ]
+        }
+      ],
+      "activa": true
+    },
+    {
+      "id": "mindkeeper",
+      "nombre": "MindKeeper",
+      "categoria": "inclasificables",
+      "orden": 47,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "html": "Aplicación de recordatorios y organización personal de Ángel Alcántar, el desarrollador de Rayo AI. Permite registrar tareas y configurar notificaciones para no olvidarte de lo importante. Esta ficha es distinta de otras apps que también utilizan el nombre Mindkeeper."
+        }
+      ],
+      "enlaces": [
+        {
+          "texto": "Obtener MindKeeper de Ángel Alcántar en Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.Rayoscompany.MindKeeper",
+          "externo": true,
+          "rel": [
+            "noopener",
+            "noreferrer"
+          ]
+        }
+      ],
+      "activa": true
+    },
+    {
+      "id": "mytherapy",
+      "nombre": "MyTherapy",
+      "categoria": "inclasificables",
+      "orden": 48,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "html": "Gestor de medicación con recordatorios, registro de tomas y seguimiento de información que puede compartirse posteriormente con profesionales de la salud."
+        }
+      ],
+      "enlaces": [
+        {
+          "texto": "Obtener MyTherapy en Google Play",
+          "url": "https://play.google.com/store/apps/details?id=eu.smartpatient.mytherapy",
+          "externo": true,
+          "rel": [
+            "noopener",
+            "noreferrer"
+          ]
+        },
+        {
+          "texto": "Obtener MyTherapy en App Store",
+          "url": "https://apps.apple.com/us/app/mytherapy-pill-reminder/id1037770429",
+          "externo": true,
+          "rel": [
+            "noopener",
+            "noreferrer"
+          ]
+        }
+      ],
+      "activa": true
+    },
+    {
+      "id": "open-camera",
+      "nombre": "Open Camera",
+      "categoria": "inclasificables",
+      "orden": 49,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "html": "Cámara de código abierto para Android con controles avanzados de fotografía y video. Es una alternativa libre, estable y ampliamente configurable."
+        }
+      ],
+      "enlaces": [
+        {
+          "texto": "Visitar el sitio oficial de Open Camera",
+          "url": "https://opencamera.org.uk/",
+          "externo": true,
+          "rel": [
+            "noopener",
+            "noreferrer"
+          ]
+        },
+        {
+          "texto": "Obtener Open Camera en Google Play",
+          "url": "https://play.google.com/store/apps/details?id=net.sourceforge.opencamera",
+          "externo": true,
+          "rel": [
+            "noopener",
+            "noreferrer"
+          ]
+        },
+        {
+          "texto": "Obtener Open Camera en F-Droid",
+          "url": "https://f-droid.org/packages/net.sourceforge.opencamera/",
+          "externo": true,
+          "rel": [
+            "noopener",
+            "noreferrer"
+          ]
+        }
+      ],
+      "activa": true
+    },
+    {
+      "id": "niagara-launcher",
+      "nombre": "Niagara Launcher",
+      "categoria": "inclasificables",
+      "orden": 50,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "html": "Launcher para Android que prioriza una pantalla de inicio simple y una lista directa de aplicaciones. Esa forma de organizar el teléfono puede resultar más fácil de aprender y recorrer para algunas personas que las cuadrículas, carpetas y múltiples pantallas de otros launchers."
+        }
+      ],
+      "enlaces": [
+        {
+          "texto": "Visitar el sitio oficial de Niagara Launcher",
+          "url": "https://niagaralauncher.com/",
+          "externo": true,
+          "rel": [
+            "noopener",
+            "noreferrer"
+          ]
+        },
+        {
+          "texto": "Obtener Niagara Launcher en Google Play",
+          "url": "https://play.google.com/store/apps/details?id=bitpit.launcher",
+          "externo": true,
+          "rel": [
+            "noopener",
+            "noreferrer"
+          ]
+        }
+      ],
+      "activa": true
+    },
+    {
+      "id": "smart-launcher-6",
+      "nombre": "Smart Launcher 6",
+      "categoria": "inclasificables",
+      "orden": 51,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "html": "Launcher para Android con interfaz personalizable, búsqueda rápida, organización automática de aplicaciones y distintas opciones para adaptar la pantalla de inicio."
+        }
+      ],
+      "enlaces": [
+        {
+          "texto": "Visitar el sitio oficial de Smart Launcher 6",
+          "url": "https://www.smartlauncher.net/",
+          "externo": true,
+          "rel": [
+            "noopener",
+            "noreferrer"
+          ]
+        },
+        {
+          "texto": "Obtener Smart Launcher 6 en Google Play",
+          "url": "https://play.google.com/store/apps/details?id=ginlemon.flowerfree",
+          "externo": true,
+          "rel": [
+            "noopener",
+            "noreferrer"
+          ]
+        }
+      ],
+      "activa": true
+    },
+    {
+      "id": "womic",
+      "nombre": "WO Mic",
+      "categoria": "inclasificables",
+      "orden": 52,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "html": "Convierte el teléfono en un micrófono para la computadora mediante Wi-Fi, Bluetooth o USB. Puede servir para grabaciones, reuniones, streaming o simplemente para improvisar un micrófono cuando no tenés otro a mano."
+        }
+      ],
+      "enlaces": [
+        {
+          "texto": "Obtener WO Mic en Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.wirelessorange.womic",
+          "externo": true,
+          "rel": [
+            "noopener",
+            "noreferrer"
+          ]
+        },
+        {
+          "texto": "Obtener WO Mic en App Store",
+          "url": "https://apps.apple.com/ar/app/wo-mic/id1260978417",
+          "externo": true,
+          "rel": [
+            "noopener",
+            "noreferrer"
+          ]
+        }
+      ],
+      "activa": true
+    },
+    {
+      "id": "ava-closed-captions",
+      "nombre": "Ava Closed Captions",
+      "categoria": "inclasificables",
+      "orden": 53,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "html": "Herramienta de transcripción de voz a texto en tiempo real, especialmente orientada a personas sordas o con hipoacusia. Cuenta con aplicaciones móviles y soluciones de escritorio para subtitular conversaciones presenciales y virtuales."
+        }
+      ],
+      "enlaces": [
+        {
+          "texto": "Visitar el sitio oficial de Ava",
+          "url": "https://es.ava.me/",
+          "externo": true,
+          "rel": [
+            "noopener",
+            "noreferrer"
+          ]
+        },
+        {
+          "texto": "Obtener Ava en Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.AVA.AVA",
+          "externo": true,
+          "rel": [
+            "noopener",
+            "noreferrer"
+          ]
+        },
+        {
+          "texto": "Obtener Ava en App Store",
+          "url": "https://apps.apple.com/ar/app/ava-transcribir-voz-a-texto/id1030067058",
+          "externo": true,
+          "rel": [
+            "noopener",
+            "noreferrer"
+          ]
+        }
+      ],
+      "activa": true
+    },
+    {
+      "id": "wpcode-lite",
+      "nombre": "WPCode Lite",
+      "categoria": "wordpress",
+      "orden": 54,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "html": "Permite agregar y administrar fragmentos PHP, JavaScript, CSS, HTML y otros códigos personalizados sin modificar directamente los archivos del tema. Incluye ubicaciones de inserción automática, shortcodes, condiciones y herramientas para importar y exportar fragmentos."
+        }
+      ],
+      "enlaces": [
+        {
+          "texto": "Obtener WPCode Lite en WordPress.org",
+          "url": "https://wordpress.org/plugins/insert-headers-and-footers/",
+          "externo": true,
+          "rel": [
+            "noopener",
+            "noreferrer"
+          ]
+        },
+        {
+          "texto": "Ver cómo utilizamos código personalizado en KathWare",
+          "url": "/mi-codigo/",
+          "externo": false,
+          "rel": []
+        }
+      ],
+      "activa": true
+    },
+    {
+      "id": "relevanssi",
+      "nombre": "Relevanssi",
+      "categoria": "wordpress",
+      "orden": 55,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "html": "Reemplaza el buscador básico de WordPress por un motor de búsqueda con resultados ordenados por relevancia y numerosas opciones de configuración. Es especialmente útil cuando el sitio ya tiene suficiente contenido como para que buscar solamente coincidencias simples deje de alcanzar."
+        }
+      ],
+      "enlaces": [
+        {
+          "texto": "Obtener Relevanssi en WordPress.org",
+          "url": "https://wordpress.org/plugins/relevanssi/",
+          "externo": true,
+          "rel": [
+            "noopener",
+            "noreferrer"
+          ]
+        }
+      ],
+      "activa": true
+    },
+    {
+      "id": "redirection",
+      "nombre": "Redirection",
+      "categoria": "wordpress",
+      "orden": 56,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "html": "Gestor de redirecciones para WordPress que permite crear y administrar redirecciones 301 y registrar errores 404. Muy útil cuando cambiás URLs, reorganizás contenido o descubrís que llevás años moviendo cosas de lugar y ahora hay que evitar que medio internet termine en una página inexistente."
+        }
+      ],
+      "enlaces": [
+        {
+          "texto": "Obtener Redirection en WordPress.org",
+          "url": "https://wordpress.org/plugins/redirection/",
+          "externo": true,
+          "rel": [
+            "noopener",
+            "noreferrer"
+          ]
+        }
+      ],
+      "activa": true
+    },
+    {
+      "id": "post-type-switcher",
+      "nombre": "Post Type Switcher",
+      "categoria": "wordpress",
+      "orden": 57,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "html": "Hace una cosa sencilla y sorprendentemente útil: permite cambiar el tipo de una publicación de WordPress. Por ejemplo, convertir una entrada en página o una página en entrada sin tener que copiar y volver a crear todo el contenido. Ideal si, como yo, decidís después que eso que era una entrada en realidad tenía que ser una página. XD."
+        }
+      ],
+      "enlaces": [
+        {
+          "texto": "Obtener Post Type Switcher en WordPress.org",
+          "url": "https://wordpress.org/plugins/post-type-switcher/",
+          "externo": true,
+          "rel": [
+            "noopener",
+            "noreferrer"
+          ]
+        }
+      ],
+      "activa": true
+    },
+    {
+      "id": "super-progressive-web-apps",
+      "nombre": "Super Progressive Web Apps",
+      "categoria": "wordpress",
+      "orden": 58,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "html": "Permite convertir un sitio WordPress en una aplicación web progresiva o PWA para que los usuarios puedan instalarlo desde navegadores compatibles y acceder a él desde la pantalla de inicio como una aplicación."
+        }
+      ],
+      "enlaces": [
+        {
+          "texto": "Obtener Super Progressive Web Apps en WordPress.org",
+          "url": "https://wordpress.org/plugins/super-progressive-web-apps/",
+          "externo": true,
+          "rel": [
+            "noopener",
+            "noreferrer"
+          ]
+        },
+        {
+          "texto": "Aprender cómo instalar KathWare como aplicación web",
+          "url": "/kathware-web-app/",
+          "externo": false,
+          "rel": []
+        }
+      ],
+      "activa": true
+    },
+    {
+      "id": "wp-armour",
+      "nombre": "WP Armour — Honeypot Anti Spam",
+      "categoria": "wordpress",
+      "orden": 59,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "html": "Protección antispam mediante la técnica de honeypot. Su principal ventaja es que puede bloquear envíos automatizados sin obligar a las personas a resolver CAPTCHA ni campos adicionales de verificación."
+        },
+        {
+          "tipo": "parrafo",
+          "html": "Como cualquier solución que modifica formularios, conviene probar su comportamiento con teclado y tecnologías de asistencia en el sitio donde se instale."
+        }
+      ],
+      "enlaces": [
+        {
+          "texto": "Obtener WP Armour en WordPress.org",
+          "url": "https://wordpress.org/plugins/honeypot/",
+          "externo": true,
+          "rel": [
+            "noopener",
+            "noreferrer"
+          ]
+        }
+      ],
+      "activa": true
+    },
+    {
+      "id": "all-in-one-wp-migration",
+      "nombre": "All-in-One WP Migration and Backup",
+      "categoria": "wordpress",
+      "orden": 60,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "html": "Herramienta para exportar, importar, respaldar y migrar instalaciones completas de WordPress. Puede empaquetar la base de datos, archivos multimedia, temas y plugins para trasladar un sitio o conservar una copia recuperable."
+        }
+      ],
+      "enlaces": [
+        {
+          "texto": "Obtener All-in-One WP Migration and Backup en WordPress.org",
+          "url": "https://wordpress.org/plugins/all-in-one-wp-migration/",
+          "externo": true,
+          "rel": [
+            "noopener",
+            "noreferrer"
+          ]
+        }
+      ],
+      "activa": true
+    },
+    {
+      "id": "wp-mail-smtp",
+      "nombre": "WP Mail SMTP",
+      "categoria": "wordpress",
+      "orden": 61,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "html": "Reconfigura el envío de correo de WordPress para utilizar SMTP o servicios especializados de correo en lugar de depender únicamente del sistema de correo del servidor. Puede ayudar cuando los mensajes del sitio no llegan, terminan en spam o el hosting decide que enviar correos correctamente era demasiado pedir."
+        }
+      ],
+      "enlaces": [
+        {
+          "texto": "Obtener WP Mail SMTP en WordPress.org",
+          "url": "https://wordpress.org/plugins/wp-mail-smtp/",
+          "externo": true,
+          "rel": [
+            "noopener",
+            "noreferrer"
+          ]
+        }
+      ],
+      "activa": true
+    },
+    {
+      "id": "activitypub",
+      "nombre": "ActivityPub",
+      "categoria": "wordpress",
+      "orden": 62,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "html": "Integra WordPress con el Fediverso mediante el protocolo ActivityPub. Permite que el propio sitio y sus autores funcionen como perfiles federados que pueden ser seguidos desde plataformas compatibles como Mastodon y recibir interacciones desde la red social abierta."
+        }
+      ],
+      "enlaces": [
+        {
+          "texto": "Obtener ActivityPub en WordPress.org",
+          "url": "https://wordpress.org/plugins/activitypub/",
+          "externo": true,
+          "rel": [
+            "noopener",
+            "noreferrer"
+          ]
+        }
+      ],
+      "activa": true
+    },
+    {
+      "id": "f-droid",
+      "nombre": "F-Droid",
+      "categoria": "software-libre",
+      "orden": 63,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "html": "Repositorio y cliente de aplicaciones libres para Android. Permite descubrir, instalar y actualizar software de código abierto desde repositorios orientados específicamente a este ecosistema."
+        }
+      ],
+      "enlaces": [
+        {
+          "texto": "Visitar el sitio oficial de F-Droid",
+          "url": "https://f-droid.org/",
+          "externo": true,
+          "rel": [
+            "noopener",
+            "noreferrer"
+          ]
+        },
+        {
+          "texto": "Descargar F-Droid para Android",
+          "url": "https://f-droid.org/F-Droid.apk",
+          "externo": true,
+          "rel": [
+            "noopener",
+            "noreferrer"
+          ]
+        }
+      ],
+      "activa": true
+    },
+    {
+      "id": "droidify",
+      "nombre": "Droidify",
+      "categoria": "software-libre",
+      "orden": 64,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "html": "Cliente alternativo para repositorios compatibles con F-Droid, con una interfaz diferente y acceso a aplicaciones de software libre. El proyecto también es de código abierto."
+        }
+      ],
+      "enlaces": [
+        {
+          "texto": "Obtener Droidify en F-Droid",
+          "url": "https://f-droid.org/packages/com.looker.droidify/",
+          "externo": true,
+          "rel": [
+            "noopener",
+            "noreferrer"
+          ]
+        },
+        {
+          "texto": "Ver el código fuente de Droidify en GitHub",
+          "url": "https://github.com/Droid-ify/client",
+          "externo": true,
+          "rel": [
+            "noopener",
+            "noreferrer"
+          ]
+        }
+      ],
+      "activa": true
+    },
+    {
+      "id": "tusky-for-mastodon",
+      "nombre": "Tusky for Mastodon",
+      "categoria": "software-libre",
+      "orden": 65,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "html": "Cliente libre para Mastodon con soporte para múltiples cuentas, notificaciones y las funciones principales de la red social mediante una interfaz sencilla."
+        }
+      ],
+      "enlaces": [
+        {
+          "texto": "Visitar el sitio oficial de Tusky",
+          "url": "https://tusky.app/",
+          "externo": true,
+          "rel": [
+            "noopener",
+            "noreferrer"
+          ]
+        },
+        {
+          "texto": "Obtener Tusky en Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.keylesspalace.tusky",
+          "externo": true,
+          "rel": [
+            "noopener",
+            "noreferrer"
+          ]
+        },
+        {
+          "texto": "Obtener Tusky en F-Droid",
+          "url": "https://f-droid.org/packages/com.keylesspalace.tusky/",
+          "externo": true,
+          "rel": [
+            "noopener",
+            "noreferrer"
+          ]
+        }
+      ],
+      "activa": true
+    },
+    {
+      "id": "kathware-subtitlereader",
+      "nombre": "KathWare SubtitleReader",
+      "categoria": "mi-codigo",
+      "orden": 66,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "html": "Extensión para navegadores que lee subtítulos en tiempo real y los hace accesibles mediante voz o lector de pantalla. Está pensada para películas, series y otros contenidos donde los subtítulos aparecen visualmente, pero nadie te los lee."
+        }
+      ],
+      "enlaces": [
+        {
+          "texto": "Visitar la página oficial de KathWare SubtitleReader",
+          "url": "/subtitlereader/",
+          "externo": false,
+          "rel": []
+        },
+        {
+          "texto": "Obtener KathWare SubtitleReader en Chrome Web Store",
+          "url": "https://chromewebstore.google.com/detail/mbdjoamfljkbajlppfpahibnfjdiecbe",
+          "externo": true,
+          "rel": [
+            "noopener",
+            "noreferrer"
+          ]
+        },
+        {
+          "texto": "Ver el código fuente de KathWare SubtitleReader en GitHub",
+          "url": "https://github.com/dragonmoon1522/KathWare-SubtitleReader",
+          "externo": true,
+          "rel": [
+            "noopener",
+            "noreferrer"
+          ]
+        }
+      ],
+      "activa": true
+    },
+    {
+      "id": "accessibility-player",
+      "nombre": "Accessibility Player",
+      "categoria": "mi-codigo",
+      "orden": 67,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "html": "Reproductor multimedia accesible desarrollado en KathWare que permite cargar archivos de audio o video y subtítulos SRT o VTT desde el propio dispositivo. Incluye controles accesibles de reproducción y permite leer los subtítulos mediante lector de pantalla o voz del sistema."
+        },
+        {
+          "tipo": "parrafo",
+          "html": "Es una herramienta independiente de KathWare SubtitleReader: no necesita detectar los subtítulos de una plataforma de streaming, sino que trabaja directamente con los archivos que cargás."
+        }
+      ],
+      "enlaces": [
+        {
+          "texto": "Usar Accessibility Player",
+          "url": "/player/",
+          "externo": false,
+          "rel": []
+        }
+      ],
+      "activa": true
+    },
+    {
+      "id": "editor-markdown-kathware",
+      "nombre": "Editor Markdown de KathWare",
+      "categoria": "mi-codigo",
+      "orden": 68,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "html": "Editor Markdown accesible que permite escribir o pegar contenido, obtener una vista previa en HTML y exportarlo sin salir del navegador. Incluye opciones para copiar Markdown o HTML, descargar archivos <code>.md</code>, generar PDF y consultar una guía rápida de Markdown."
+        }
+      ],
+      "enlaces": [
+        {
+          "texto": "Usar el Editor Markdown de KathWare",
+          "url": "/markdown/",
+          "externo": false,
+          "rel": []
+        }
+      ],
+      "activa": true
+    },
+    {
+      "id": "kathware",
+      "nombre": "KathWare",
+      "categoria": "mi-codigo",
+      "orden": 69,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "html": "Mi propio ecosistema digital: contenidos, herramientas, proyectos y desarrollos de accesibilidad construidos alrededor de un WordPress que, a esta altura, cada vez se parece menos al que instalé originalmente. Además del sitio, KathWare funciona como laboratorio para desarrollar y probar soluciones propias en un entorno real."
+        }
+      ],
+      "enlaces": [
+        {
+          "texto": "Conocer el código y las herramientas desarrolladas para KathWare",
+          "url": "/mi-codigo/",
+          "externo": false,
+          "rel": []
+        },
+        {
+          "texto": "Aprender cómo instalar KathWare como aplicación web",
+          "url": "/kathware-web-app/",
+          "externo": false,
+          "rel": []
+        },
+        {
+          "texto": "Ver mis desarrollos en GitHub",
+          "url": "https://github.com/dragonmoon1522",
+          "externo": true,
+          "rel": [
+            "noopener",
+            "noreferrer"
+          ]
+        }
+      ],
+      "activa": true
+    }
+  ]
+}
