@@ -1,6 +1,6 @@
 {
   "esquema": "kathware-apps/v1",
-  "version": "2026.10.27",
+  "version": "2026.10.27.1",
   "introduccion": [
     "Un catálogo de apps que uso desde hace tiempo y otras que fui descubriendo en estos últimos meses, que se han convertido en herramientas y utilidades para el día a día. Además, recomendaciones de usuarios como vos.",
     "<strong>Advertencia:</strong> algunas apps podrían dejar de estar disponibles o mejorar o empeorar su accesibilidad. Sorry, eso no es mi culpa, es de los desarrolladores XD. ¿Empezamos?"
@@ -1677,17 +1677,48 @@
       "contenido": [
         {
           "tipo": "parrafo",
-          "html": "Catálogo gratuito en español de películas, series, documentales y cortometrajes con audiodescripción. El contenido se ofrece en formato sólo audio y requiere una cuenta gratuita para acceder a las reproducciones."
+          "html": "Catálogo gratuito en español de películas, series, documentales y cortometrajes con audiodescripción. El contenido se ofrece en formato solo audio y requiere una cuenta gratuita para acceder a las reproducciones."
         },
         {
           "tipo": "parrafo",
-          "html": "Si utilizás NVDA en Windows, también existe un complemento que permite consultar el catálogo, reproducir y descargar contenidos directamente desde una interfaz integrada en el lector de pantalla. La web también puede utilizarse en navegadores móviles con soporte HTML5. Por ahora no pude confirmar una ficha oficial de Audiocinemateca para Android en Google Play; no hay que confundirla con AudescMobile, que es otro proyecto."
+          "html": "Si utilizás NVDA en Windows, también existe un complemento que permite consultar el catálogo, reproducir y descargar contenidos directamente desde una interfaz integrada en el lector de pantalla. La web también puede utilizarse desde navegadores móviles compatibles."
+        },
+        {
+          "tipo": "parrafo",
+          "html": "Audiocinemateca también cuenta con una aplicación oficial para Android, desarrollada por Johan G. y César Verástegui. Su código fuente es público bajo licencia GPL-3.0 y sus versiones se distribuyen desde GitHub. La versión 3.3.2, publicada el 29 de septiembre de 2026, incluye mejoras en reproducción, pausas durante llamadas y Google Cast. Según la configuración del proyecto, requiere Android 7.1 o posterior."
         }
       ],
       "enlaces": [
         {
           "texto": "Visitar Audiocinemateca",
           "url": "https://audiocinemateca.com/",
+          "externo": true,
+          "rel": [
+            "noopener",
+            "noreferrer"
+          ]
+        },
+        {
+          "texto": "Consultar el software oficial de Audiocinemateca",
+          "url": "https://audiocinemateca.com/software",
+          "externo": true,
+          "rel": [
+            "noopener",
+            "noreferrer"
+          ]
+        },
+        {
+          "texto": "Obtener Audiocinemateca para Android (última versión en GitHub)",
+          "url": "https://github.com/JohanAnim/Audiocinemateca/releases/latest",
+          "externo": true,
+          "rel": [
+            "noopener",
+            "noreferrer"
+          ]
+        },
+        {
+          "texto": "Consultar el código fuente de Audiocinemateca para Android",
+          "url": "https://github.com/JohanAnim/Audiocinemateca",
           "externo": true,
           "rel": [
             "noopener",
