@@ -1,59 +1,63 @@
 # KathWare JSONs
 
-Repositorio público de datos JSON utilizados por las herramientas de [KathWare](https://kathware.com.ar/).
+Datos públicos utilizados por las herramientas, catálogos y páginas de [KathWare](https://kathware.com.ar/).
 
-Este repositorio comenzó como **Pastillas Inspiradoras**, el proyecto de frases para Alexa. La skill de Alexa ya no está en uso; los archivos de esa implementación se conservan como antecedentes históricos y no son necesarios para el funcionamiento de **KathWare Dice** en el sitio.
+**Este repositorio es un almacén de datos**, no un plugin de WordPress. Los lectores y componentes de presentación siguen siendo responsabilidad del sitio; subir un JSON no modifica automáticamente la página pública.
 
-## Datos disponibles
+## Archivos actuales
 
-| Archivo | Contenido |
-| --- | --- |
-| [`frases.json`](./frases.json) | Frases de KathWare Dice. Actualmente es un arreglo de objetos con los campos `texto` y `autor`. |
-| [`version.json`](./version.json) | Manifiesto de versiones de los conjuntos de datos publicados. |
-| [`version.md`](./version.md) | Historial histórico del proyecto original. |
+| Archivo | Datos | Estructura |
+| --- | --- | --- |
+| [`frases.json`](./frases.json) | 114 frases de KathWare Dice | Arreglo de objetos `{ "texto", "autor" }` |
+| [`apps.json`](./apps.json) | 69 aplicaciones en 11 categorías | `categorias`, `aplicaciones` |
+| [`anuncios.json`](./anuncios.json) | 15 fichas de servicios, emprendimientos y recomendaciones | `categorias`, `anuncios` |
+| [`colaboraciones.json`](./colaboraciones.json) | 6 formas de apoyar el sitio | `categorias`, `colaboraciones`, `contacto` |
+| [`version.json`](./version.json) | Versiones independientes de los recursos | `recursos` |
 
-Más adelante podrán incorporarse `apps.json` y `anuncios.json`, con su propia estructura y control de versiones.
+Los datos de apps, anuncios y colaboraciones se transcribieron de los contenidos HTML utilizados en KathWare, conservando la identificación, el orden y las URLs de las fichas.
 
-## Formato de las frases
+## Contrato de datos
 
-```json
-[
-  {
-    "texto": "Ejemplo de una frase.",
-    "autor": "Autor de la frase"
-  }
-]
+- `id`: identificador estable de ficha; debe conservarse para no romper enlaces a fragmentos (por ejemplo `/apps/#softbraille`).
+- `categoria`: identifica la sección a la que pertenece la ficha.
+- `orden`: orden de publicación original, no aleatorio.
+- `activa`: permite excluir una ficha de un catálogo o selección de promociones sin borrarla.
+- `etiqueta` y `tipo`: identifican la clase de promoción y permiten generar sus rótulos accesibles.
+- `contenido`: secuencia ordenada de bloques de tipo `parrafo` o `lista`; el campo `html` o cada elemento de lista puede contener HTML editorial básico (énfasis, enlaces, etc.). **El componente que los renderiza debe sanear el HTML y los atributos antes de mostrarlo.**
+- `enlaces` (apps): conservan el texto descriptivo de cada enlace, su URL, apertura externa y relación `rel`.
+
+Los datos bancarios de `colaboraciones.json` son públicos porque se publican para recibir aportes voluntarios. Revisarlos y mantenerlos actualizados antes de utilizarlos en una página.
+
+## Versiones y caché
+
+Consultar [`version.json`](./version.json). Cada recurso tiene su versión y fecha de última edición. **Al actualizar un JSON, cambiar también su versión en `version.json`.** Eso permite que los componentes web detecten una nueva publicación sin descargar repetidamente todos los catálogos.
+
+Ejemplo de consulta (sin asumir que ya exista un lector de catálogos instalado en WordPress):
+
+```js
+const raiz = "https://raw.githubusercontent.com/dragonmoon1522/KathWare-Jsons/main/";
+const manifiesto = await fetch(raiz + "version.json").then(r => {
+  if (!r.ok) throw new Error("No se pudo cargar el manifiesto");
+  return r.json();
+});
+const version = manifiesto.recursos.apps.version;
+const catalogo = await fetch(raiz + "apps.json?v=" + encodeURIComponent(version))
+  .then(r => {
+    if (!r.ok) throw new Error("No se pudo cargar el catálogo");
+    return r.json();
+  });
 ```
 
-El sitio selecciona una frase aleatoria del archivo y la presenta como texto, sin interpretar HTML. Los nombres de las propiedades `texto` y `autor` deben mantenerse para conservar la compatibilidad.
+Cuando el sistema de caché y los renderizadores estén listos, las páginas y los fragmentos de WPCode Lite podrán leer estos archivos sin modificar el tema Femina.
 
-## Control de versiones de datos
+## Compatibilidad con KathWare Dice
 
-`version.json` registra la versión de cada recurso. Por ejemplo:
+`frases.json` conserva su esquema original: un arreglo de `{ "texto", "autor" }`. No se requiere modificar las frases para incorporar los nuevos catálogos.
 
-```json
-{
-  "esquema": 1,
-  "recursos": {
-    "frases": {
-      "archivo": "frases.json",
-      "version": "1.3.3",
-      "actualizado": "2026-03-19"
-    }
-  }
-}
-```
+## Antecedentes
 
-**Cuando se modifique `frases.json`, se debe actualizar también `recursos.frases.version` y la fecha**. El lector web puede comparar este número con la versión almacenada en el navegador y descargar las frases solo cuando cambien. Cada conjunto futuro podrá tener su propia versión independiente.
+Este repositorio nació como el proyecto de la antigua skill de Alexa «Pastillas Inspiradoras», que ya fue retirada. Se conservan algunos archivos de esa etapa por motivos históricos, **pero la skill no se mantiene ni forma parte de las funcionalidades actuales de KathWare**.
 
-## Uso en KathWare
+## Licencias
 
-Los JSON son públicos y están destinados a ser consumidos por las páginas y componentes del sitio. Conviene usar las URL de la rama principal del repositorio para las cargas remotas y disponer de un comportamiento alternativo cuando falle la red.
-
-La información se publica de forma independiente del código PHP, JavaScript o HTML que la presenta. Los componentes del sitio se mantienen en WPCode Lite y pueden consumir estos archivos sin necesidad de modificar el tema de WordPress.
-
-## Licencias e historia
-
-Consultar [`LICENSE.md`](./LICENSE.md) para el código y los documentos originales del repositorio. El contenido literario de las frases debe conservar sus créditos y condiciones de uso originales. Esta reorganización no modifica automáticamente sus licencias.
-
-El código original de Alexa permanece en el historial y los archivos del repositorio solamente como referencia; **no forma parte de los componentes activos de KathWare**.
+La reorganización del repositorio no cambia los derechos de autor ni las condiciones previas de los contenidos. Consultar [`LICENSE.md`](./LICENSE.md) y las atribuciones originales de cada recurso.
