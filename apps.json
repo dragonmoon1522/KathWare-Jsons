@@ -1,6 +1,6 @@
 {
   "esquema": "kathware-apps/v1",
-  "version": "2026.10.27.1",
+  "version": "2026.11.23",
   "introduccion": [
     "Un catálogo de apps que uso desde hace tiempo y otras que fui descubriendo en estos últimos meses, que se han convertido en herramientas y utilidades para el día a día. Además, recomendaciones de usuarios como vos.",
     "<strong>Advertencia:</strong> algunas apps podrían dejar de estar disponibles o mejorar o empeorar su accesibilidad. Sorry, eso no es mi culpa, es de los desarrolladores XD. ¿Empezamos?"
@@ -2780,6 +2780,57 @@
             "noopener",
             "noreferrer"
           ]
+        }
+      ],
+      "activa": true
+    },
+    {
+      "id": "sensescan",
+      "nombre": "SenseScan",
+      "categoria": "descripciones",
+      "orden": 70,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "html": "Aplicación para Android desarrollada por Martín Baldassarre que busca facilitar el escaneo de códigos QR, Data Matrix y códigos de barras, especialmente cuando no se puede apuntar visualmente con la cámara. Utiliza indicaciones de voz, sonido y vibración para orientar durante la lectura."
+        },
+        {
+          "tipo": "parrafo",
+          "html": "SenseScan está en prueba abierta. Por el momento se ofrece en español e inglés; su desarrollador anunció que el alemán llegará próximamente. Busca personas que prueben la aplicación, comuniquen problemas y sugieran otros tipos de códigos, así como colaboradoras y colaboradores para traducirla a más idiomas."
+        },
+        {
+          "tipo": "parrafo",
+          "html": "Martín presentó SenseScan en la charla «¿Y si los códigos pudieran hablar?», durante CLAU 2026, el 20 de noviembre. La grabación está disponible en YouTube desde el comienzo de su intervención, aproximadamente en 2 horas y 50 minutos. También anunció que tiene previsto comenzar el desarrollo de una versión para iPhone y iPad; esa versión todavía no está disponible."
+        },
+        {
+          "tipo": "parrafo",
+          "html": "Para participar como tester o ayudar con traducciones, podés escribir a <a href=\"mailto:sensescan.app@gmail.com\">sensescan.app@gmail.com</a>."
+        }
+      ],
+      "enlaces": [
+        {
+          "texto": "Instalar o unirse a la prueba abierta de SenseScan para Android en Google Play",
+          "url": "https://play.google.com/store/apps/details?id=io.github.martinbalda.sensescan",
+          "externo": true,
+          "rel": [
+            "noopener",
+            "noreferrer"
+          ]
+        },
+        {
+          "texto": "Ver la charla de Martín Baldassarre en CLAU 2026 desde su intervención",
+          "url": "https://www.youtube.com/live/M2golU9dlLo?t=10199",
+          "externo": true,
+          "rel": [
+            "noopener",
+            "noreferrer"
+          ]
+        },
+        {
+          "texto": "Contactar al desarrollador para pruebas o traducciones",
+          "url": "mailto:sensescan.app@gmail.com",
+          "externo": false,
+          "rel": []
         }
       ],
       "activa": true
